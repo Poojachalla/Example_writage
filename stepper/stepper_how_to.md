@@ -46,7 +46,7 @@ prerequisites.
 
 -       Tablets
 
-    -   PWA
+-       PWA
     
 ## C. Importing the Component
 
