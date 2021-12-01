@@ -33,15 +33,15 @@ Before you start using the Image Gallery component, ensure the following:
 
 ## B. Platforms Supported
 
--       Mobile
+i.      Mobile
 
-    -   iOS
+    1.  iOS
 
-    -   Android
+    2.  Android
 
--       Tablet & iPad
+ii.     Tablet & iPad
 
--       PWA & Responsive Web
+iii.    PWA & Responsive Web
 
 ## C. Importing the app
 
