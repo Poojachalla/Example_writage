@@ -35,9 +35,9 @@ Before you start using the Image Gallery component, ensure the following:
 
 i.      Mobile
 
-    1.  iOS
+    i.  iOS
 
-    2.  Android
+    ii. Android
     
 ii.     Tablet & iPad
 
