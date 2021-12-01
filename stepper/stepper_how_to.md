@@ -50,7 +50,7 @@ prerequisites.
     
 ## C. Importing the Component
 
-**You can import the Forge components only into the apps that are of the Reference Architecture type.**
+You can import the Forge components only into the apps that are of the Reference Architecture type.
 
 #### **To import the Stepper component, do the following:**
 
@@ -87,9 +87,6 @@ section of the Volt MX Iris User Guide.
 
 You can then run your app to see the Stepper work in real time.
 
-## 
-
-## 
 
 # 3. References
 
