@@ -1,4 +1,3 @@
-16 Nov 2021
 
 # IMAGE GALLERY (1.0.1)
 
@@ -28,21 +27,21 @@ Approximately 85% reusable.
 
 Before you start using the Image Gallery component, ensure the following:
 
-• [HCL Foundry](https://manage.hclvoltmx.com/)
+-   [HCL Foundry](https://manage.hclvoltmx.com/)
 
-• Volt MX Iris
+-   Volt MX Iris
 
 ## Platforms Supported
 
-### Mobile
+-       Mobile
 
-#### iOS
+    -   iOS
 
-#### Android
+    -   Android
 
-### Tablet & iPad
+-       Tablet & iPad
 
-### PWA & Responsive Web
+    -   PWA & Responsive Web
 
 ## Importing the app
 
@@ -86,33 +85,23 @@ You can also add **Image Gallery component** dynamically. To do so,
 section to access the respective **Form Controller**. Create a method and
 implement the code snippet like the sample code mentioned below.
 
+ > 
 /\*Creating a Component Object\*/
 
-var imageGalleryInstance = new com.voltmxsa.ImageGallery ({
+    var imageGalleryInstance = new com.voltmxsa.ImageGallery ({
+      "clipBounds": true,
+      "height": "100%",
+      "id": "ImageGallery",
+      "isVisible": true,
+      "left": "0dp",
+      "top": "0dp",
+      "width": "100%",
+       "zIndex":"1"
+    }, {}, {
+    });
+     this.view.add(imageGalleryInstance);
+     this.view.ImageGallery.flxItemSkin="sknFlxThumbBGWhite";
 
-"clipBounds": true,
-
-"height": "100%",
-
-"id": "ImageGallery",
-
-"isVisible": true,
-
-"left": "0dp",
-
-"top": "0dp",
-
-"width": "100%",
-
-"zIndex":"1"
-
-}, {}, {
-
-});
-
-this.view.add(imageGalleryInstance);
-
-this.view.ImageGallery.flxItemSkin="sknFlxThumbBGWhite";
 
 In the code snippet, you can edit the properties of the component as per your
 requirement. For more information, see Setting Properties.
@@ -223,10 +212,10 @@ this.view. ImageGallery.setImage(ImageListArr);
 
 App version 1.0.1
 
-## Limitations:
+-   ## Limitations:
 
 No Limitations.
 
-## Known Issues:
+-   ## Known Issues:
 
 NA
