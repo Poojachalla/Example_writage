@@ -42,7 +42,7 @@ Before you start using the Image Gallery component, ensure the following:
 
 -       Tablet & iPad
 
-    -   PWA & Responsive Web
+-       PWA & Responsive Web
 
 ## Importing the app
 
