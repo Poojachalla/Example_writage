@@ -37,15 +37,15 @@ prerequisites.
 
 ## B. Platforms Supported
 
--       Mobile
+-   i.    Mobile
 
-    -   iOS
+    -  1. iOS
 
-    -   Android
+    -  2. Android
 
--       Tablets
+-   ii.    Tablets
 
--       PWA
+-   iii.   PWA
     
 ## C. Importing the Component
 
