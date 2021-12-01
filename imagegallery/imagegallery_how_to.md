@@ -1,4 +1,3 @@
-16 Nov 2021
 
 # IMAGE GALLERY (1.0.1)
 
