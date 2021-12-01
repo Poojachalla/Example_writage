@@ -36,7 +36,7 @@ prerequisites.
 
 -   Volt MX Iris
 
-## Platforms Supported
+## B. Platforms Supported
 
 -       Mobile
 
@@ -52,11 +52,11 @@ prerequisites.
 
 **You can import the Forge components only into the apps that are of the Reference Architecture type.**
 
-## **To import the Stepper component, do the following:**
+#### **To import the Stepper component, do the following:**
 
-#### 1. Open your app project in Volt MX Iris.
+1. Open your app project in Volt MX Iris.
 
-#### 2.  In the Project Explorer, click the **Templates** tab.
+2.  In the Project Explorer, click the **Templates** tab.
 
 #### 
 
@@ -70,18 +70,15 @@ Component** dialog box appears.
 
 ![Graphical user interface, text, application, Teams Description automatically
 generated](media/1d4ae279a8ad9959ac3e2684c0674abf.png)
-
-#### 4.Click **Browse** to navigate to the location of the component, select the
+4.Click **Browse** to navigate to the location of the component, select the
 component, and then click **Import**. The component and its associated widgets
 and modules are added to your project.
 
 ![](media/aabbc4f1b8a09e54f63f13cc8176cc05.png)
 
-## Once you have imported a component to your project, you can easily add the component to a form. For more information, refer Add a Component to a Form.
+Once you have imported a component to your project, you can easily add the component to a form. For more information, refer Add a Component to a Form.
 
-## 
-
-## Building and previewing the app
+## D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device. For more information, you can refer to the [Building and Viewing an
@@ -94,7 +91,7 @@ You can then run your app to see the Stepper work in real time.
 
 ## 
 
-# References
+# 3. References
 
 ## A. Dynamic Usage
 
@@ -113,7 +110,6 @@ your app dynamically. To do so, follow the given steps.
     create and configure the component.  
     You can refer to the given sample code for more information.
 
-    >
     createComponent : function()
 
     {
@@ -171,7 +167,7 @@ information, refer to the [Add
 Actions](https://opensource.hcltechsw.com/volt-mx-docs/docs/tutorials/ActionEditor.html)
 section of the Volt MX Iris User Guide.
 
-## Properties
+## B. Properties
 
 You can use **Properties** to customize and configure the elements of a
 component. These elements can be UI elements, service parameters, and so on. For
@@ -304,7 +300,7 @@ getStepperValue](javascript:void(0);)
 
 App version 1.0.3:
 
-## Limitations
+## A. Limitations
 
 1.voltmx.ui.toast works only in Android Platform . So the message(Min and Max
 value is reached) will be displayed only in android.
