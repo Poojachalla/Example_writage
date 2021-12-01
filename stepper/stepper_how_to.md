@@ -1,4 +1,3 @@
-Date : 28-Oct-21
 
 # STEPPER (1.0.3)
 
