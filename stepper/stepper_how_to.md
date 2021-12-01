@@ -1,8 +1,8 @@
 Date : 28-Oct-21
 
-**Stepper** (1.0.3)
+# STEPPER (1.0.3)
 
-1.Overview
+# 1.Overview
 
 The stepper component is a number increment counter. This component provides a
 basic stepper template which returns the selected number. It is generally used
@@ -11,20 +11,20 @@ generally used in retail, e-commerce and other similar scenarios.
 
 ## Use case
 
-### select a number between two limits, such as in a shopping cart or a product catalogue .
+-   select a number between two limits, such as in a shopping cart or a product catalogue .
 
 ## Features
 
-1.  This component provides a basic stepper template which returns the selected
+-   This component provides a basic stepper template which returns the selected
     number.
 
 ## Percentage of re-use:
 
 90%
 
-# Getting Started
+# 2.Getting Started
 
-## Prerequisites
+## A. Prerequisites
 
 This is a getting started section for the Stepper component. It contains
 information about setting up and running your component in an application.
@@ -38,32 +38,32 @@ prerequisites.
 
 ## Platforms Supported
 
-### Mobile
+-       Mobile
 
-#### iOS
+    -   iOS
 
-#### Android
+    -   Android
 
-### Tablets
+-       Tablets
 
-### PWA
+    -   PWA
+    
+## C. Importing the Component
 
-## Importing the Component
-
-## You can import the Forge components only into the apps that are of the Reference Architecture type.
+**You can import the Forge components only into the apps that are of the Reference Architecture type.**
 
 ## **To import the Stepper component, do the following:**
 
-## Open your app project in Volt MX Iris.
+#### 1. Open your app project in Volt MX Iris.
 
-1.  In the Project Explorer, click the **Templates** tab.
+#### 2.  In the Project Explorer, click the **Templates** tab.
 
-## 
+#### 
 
 ![Graphical user interface, text, application Description automatically
 generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
 
-## 
+#### 
 
 3.Right-click **Components**, and then select **Import Component**. The **Import
 Component** dialog box appears.
@@ -71,7 +71,7 @@ Component** dialog box appears.
 ![Graphical user interface, text, application, Teams Description automatically
 generated](media/1d4ae279a8ad9959ac3e2684c0674abf.png)
 
-4.Click **Browse** to navigate to the location of the component, select the
+#### 4.Click **Browse** to navigate to the location of the component, select the
 component, and then click **Import**. The component and its associated widgets
 and modules are added to your project.
 
@@ -96,7 +96,7 @@ You can then run your app to see the Stepper work in real time.
 
 # References
 
-## Dynamic Usage
+## A. Dynamic Usage
 
 If you want to use the Stepper component dynamically, you will need to import
 the component into your project **Templates**.
@@ -109,10 +109,11 @@ your app dynamically. To do so, follow the given steps.
     ![Graphical user interface Description automatically
     generated](media/ea426e12a1a65e0e8cd897f17cee7d7d.png)
 
-2.  Create a function called createComponent(); and write the code inside it to
+2\. Create a function called createComponent(); and write the code inside it to
     create and configure the component.  
     You can refer to the given sample code for more information.
 
+    >
     createComponent : function()
 
     {
