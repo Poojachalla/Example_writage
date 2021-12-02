@@ -172,24 +172,20 @@ elements. These elements can be UI elements, service parameters, and so on.
 You can set the properties from the Iris Properties panel on the right hand
 side. You can also configure these properties using a JavaScript code.
 
-1.**Menu Items**
+**1. Menu Items**
 
-Description :Specifies the list of menu items that you want to display on the
-component   										
-
-Syntax :  menuItems								
-
-Type : 	Master Data									 
-	Array of JSON							  
-
-Read/Write :  Read + Write								
+| Description:	   | Specifies the list of menu items that you want to display on the component 		                                                       |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Syntax  :        | menuItems                                                                                                                                    |
+|  Type   :   | Master Data <br/>Array of JSON |
+| Read/Write :	| Read + Write						|
 
 On Iris , you can specify the menu items from Master Data
 
 ![Graphical user interface, text, application, email Description automatically
 generated](media/22b9b57df4348b8817115ea695b9263d.png)
 
-Example :
+**Example :**
 
   var sampleData = [{lblMenuItem: "Home"},
 
@@ -205,29 +201,21 @@ Example :
 
 **2.Flex Hamburger Menu Width (flxHamMenuWidth)**
 
-Description : This property enables the consumer to change the Flex Width of the
-Hamburger Menu component								
-
-Syntax : flxHamMenuWidth	
-							
-Type : Flex Container		
-						
-Read/Write : Read + Write	
-							
-**Example** : HamMenu.flxHamMenuwidth="50%";						
+| **Description** : | This property enables the consumer to change the Flex Width of the Hamburger Menu component		|
+|------------------|--------------------------------------------------------------------------------------------------------------------|
+| Syntax  :        | flxHamMenuWidth                                          |             
+|  Type   :   | Flex Container |
+| Read/Write :	| Read + Write						|
+| Example **:**| HamMenu.flxHamMenuwidth="50%";				|					
 
 **3.Flex Hamburger Menu skin(flxHamMenuskin)**
 
-**Description** : This property enables the consumer to change the Flex Skin of
-the Hamburger Menu component.			
-					
-Syntax : flxHamMenuskin	
-						
-Type : Flex Container	
-							
-Read/Write : Read + Write		
-						
-Example **:** HamMenu.sknHamMenu="voltmxsmhamMenu";					
+| **Description** : | This property enables the consumer to change the Flex Skin of the Hamburger Menu component.			|
+|------------------|--------------------------------------------------------------------------------------------------------------------|
+| Syntax  :        | flxHamMenuskin	                                          |             
+|  Type   :   | Flex Container |
+| Read/Write :	| Read + Write						|
+| Example **:**| HamMenu.sknHamMenu="voltmxsmhamMenu";					|
 
 # C. **Events**
 
@@ -254,7 +242,7 @@ this.view.hamMenu.setMenuVisibility(false);
 
 The following APIs pertain to the Hamburger Menu component:
 
-1.  setMenuVisibility
+**1.  setMenuVisibility**
 
 Description : Sets the visibility of the Menu for the form.
 
@@ -264,7 +252,7 @@ Parameters : isVisible
 
 Example : this.view.hamMenu.setMenuVisibility(false);
 
-2.  setData
+**2.  setData**
 
 Description : Sets the Data to the Form.
 
