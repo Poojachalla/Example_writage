@@ -10,11 +10,11 @@ generally used in retail, e-commerce and other similar scenarios.
 
 ## A. Use case
 
--   select a number between two limits, such as in a shopping cart or a product catalogue .
+i.   select a number between two limits, such as in a shopping cart or a product catalogue .
 
 ## B. Features
 
--   This component provides a basic stepper template which returns the selected
+i.   This component provides a basic stepper template which returns the selected
     number.
 
 ## C. Percentage of re-use:
