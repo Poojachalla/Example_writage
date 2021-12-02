@@ -253,7 +253,9 @@ information on how to set the properties by writing a JavaScript.
 [![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item
 Fields](javascript:void(0);)
 
-| **Description:** | Specifies the type of the menu items Image and Text: Menu Items will have both image and text. Only Image: Menu Items will have only image. |
+| **Description:** | Specifies the type of the menu items 
+		    	- Image and Text: Menu Items will have both image and text.
+		    	- Only Image: Menu Items will have only image.												 |
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItemType                                                                                                                                |
 | **Type:**        | List Selector                                                                                                                               |
@@ -265,7 +267,10 @@ Fields](javascript:void(0);)
 [![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Animation
 Type](javascript:void(0);)
 
-| **Description:** | Specifies the animation type of the menu items. Rise : Menu items move up from the bottom. Slide In: Menu items move in from right. Default: Menu items appear with default animation. |
+| **Description:** | Specifies the animation type of the menu items. 
+		 	- Rise : Menu items move up from the bottom. 
+		 	- Slide In: Menu items move in from right.
+		 	- Default: Menu items appear with default animation. 												 |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | animationType                                                                                                                                                                          |
 | **Type:**        | List Selector                                                                                                                                                                          |
