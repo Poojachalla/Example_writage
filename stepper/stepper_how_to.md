@@ -301,4 +301,4 @@ App version 1.0.3:
 1. voltmx.ui.toast works only in Android Platform . So the message (Min and Max
 value is reached) will be displayed only in android.
 
-2\. If browser height is minimized then UI gets distorted.
+2. If browser height is minimized then UI gets distorted.
