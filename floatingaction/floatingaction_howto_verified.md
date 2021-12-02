@@ -250,37 +250,29 @@ information on how to set the properties by writing a JavaScript.
 
 **General Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item
-Fields](javascript:void(0);)
+- **Menu Item Fields**
 
-| **Description:** | Specifies the type of the menu items 
-		    	- Image and Text: Menu Items will have both image and text.
-		    	- Only Image: Menu Items will have only image.												 |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
+| **Description:** | Specifies the type of the menu items<br />• Image and Text: Menu Items will have both image and text.<br />• Only Image: Menu Items will have only image. |
 | **Syntax:**      | menuItemType                                                                                                                                |
 | **Type:**        | List Selector                                                                                                                               |
 | **Read/Write:**  | Read + Write                                                                                                                                |
 | **Remarks**      | The default value of the property is “Only Image”.                                                                                          |
 | **Example:**     | this.view.componentID.menuItemType= “Only Image”;                                                                                           |
-|                  |                                                                                                                                             |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Animation
-Type](javascript:void(0);)
+- **Animation Type**
 
-| **Description:** | Specifies the animation type of the menu items. 
-		 	- Rise : Menu items move up from the bottom. 
-		 	- Slide In: Menu items move in from right.
-		 	- Default: Menu items appear with default animation. 												 |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
+| **Description:** | Specifies the animation type of the menu items.<br />• Rise : Menu items move up from the bottom.<br />• Slide In: Menu items move in from right.  <br />• Default: Menu items appear with default animation. 												|
 | **Syntax:**      | animationType                                                                                                                                                                          |
 | **Type:**        | List Selector                                                                                                                                                                          |
 | **Read/Write:**  | Read + Write                                                                                                                                                                           |
 | **Remarks**      | The property requires a String value. You must handle the exceptions if you provide an invalid value.                                                                                  |
 | **Example:**     | this.view.componentID.animationType = Default ;                                                                                                                                        |
-|                  |                                                                                                                                                                                        |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Enable Background
-Overlay](javascript:void(0);)
+- **Enable Background Overlay**
 
 | **Description:** | Controls the visibility of the background overlay.                                                     |
 |------------------|--------------------------------------------------------------------------------------------------------|
@@ -289,10 +281,8 @@ Overlay](javascript:void(0);)
 | **Read/Write:**  | Read + Write                                                                                           |
 | **Remarks**      | The property requires a Boolean value. You must handle the exceptions if you provide an invalid value. |
 | **Example:**     | this.view.componentID.enableOverlay = true;                                                            |
-|                  |                                                                                                        |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background Overlay
-Image](javascript:void(0);)
+- **Background Overlay Image**
 
 | **Description:** | Specifies the name of the image to be set as the background overlay.                                                                                                                                                                                                                                      |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -302,10 +292,9 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.imgBGOverlaySrc = “fade.png”;                                                                                                                                                                                                                                                       |
 
-Primary Button Properties
+**Primary Button Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background for the Primary Button.                                                                                                                                                                                                                  |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -324,12 +313,10 @@ Image](javascript:void(0);)
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.imgPrimaryIcon= “icon_plus.png”;                                                                                                                                                                                                                                                    |
-|                  |                                                                                                                                                                                                                                                                                                           |
-|                  |                                                                                                                                                                                                                                                                                                           |
 
-Menu Item 1 Properties
+**Menu Item 1 Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Visibility](javascript:void(0);)
+- **Visibility**
 
 | **Description:** | Controls the visibility of Menu item 1.          |
 |------------------|--------------------------------------------------|
@@ -339,8 +326,7 @@ Menu Item 1 Properties
 | **Remarks**      | The default value of the property is **true**.   |
 | **Example:**     | this.view.componentID.isVisibleMenuItem1 = true; |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 1.                                                                                                                                                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -349,9 +335,8 @@ Image](javascript:void(0);)
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem1BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
-|                  |                                                                                                                                                                                                                                                                                                           |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
 | **Description:** | Specifies the file name of the image to be set as the Menu item 1 icon.                                                                                                                                                                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -361,7 +346,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem1IconSrc = “itempen.png”;                                                                                                                                                                                                                                                   |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Text](javascript:void(0);)
+- **Text**
 
 | **Description:** | Specifies the text to be displayed on the label of Menu item 1. |
 |------------------|-----------------------------------------------------------------|
@@ -371,9 +356,9 @@ Image](javascript:void(0);)
 | **Remarks**      | The default value of the property is “Label”.                   |
 | **Example:**     | this.view.componentID.menuItem1Text = “Label”;                  |
 
-Menu Item 2 Properties
+**Menu Item 2 Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Visibility](javascript:void(0);)
+- **Visibility**
 
 | **Description:** | Controls the visibility of Menu item 2.          |
 |------------------|--------------------------------------------------|
@@ -384,8 +369,7 @@ Menu Item 2 Properties
 | **Example:**     | this.view.componentID.isVisibleMenuItem2 = true; |
 |                  |                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 2.                                                                                                                                                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -395,7 +379,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem2BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
 | **Description:** | Specifies the file name of the image to be set as the Menu item 2 icon.                                                                                                                                                                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -405,7 +389,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem2IconSrc = “itemstar.png”;                                                                                                                                                                                                                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Text](javascript:void(0);)
+- **Text**
 
 | **Description:** | Specifies the text to be displayed on the label of Menu item 2. |
 |------------------|-----------------------------------------------------------------|
@@ -415,9 +399,9 @@ Image](javascript:void(0);)
 | **Remarks**      | The default value of the property is “Label”.                   |
 | **Example:**     | this.view.componentID.menuItem2Text = “Label”;                  |
 
-Menu Item 3 Properties
+**Menu Item 3 Properties
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Visibility](javascript:void(0);)
+- **Visibility**
 
 | **Description:** | Controls the visibility of Menu item 3.          |
 |------------------|--------------------------------------------------|
@@ -427,8 +411,7 @@ Menu Item 3 Properties
 | **Remarks**      | The default value of the property is **true**.   |
 | **Example:**     | this.view.componentID.isVisibleMenuItem3 = true; |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 3.                                                                                                                                                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -438,7 +421,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem3BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
 | **Description:** | Specifies the file name of the image to be set as the Menu item 3 icon.                                                                                                                                                                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -448,7 +431,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem3IconSrc = “itemprofile.png”;                                                                                                                                                                                                                                               |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Text](javascript:void(0);)
+- **Text**
 
 | **Description:** | Specifies the text to be displayed on the label of Menu item 3. |
 |------------------|-----------------------------------------------------------------|
@@ -457,11 +440,10 @@ Image](javascript:void(0);)
 | **Read/Write:**  | Read + Write                                                    |
 | **Remarks**      | The default value of the property is “Label”.                   |
 | **Example:**     | this.view.componentID.menuItem3Text = “Label”;                  |
-|                  |                                                                 |
 
-Menu Item 4 Properties
+**Menu Item 4 Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Visibility](javascript:void(0);)
+- **Visibility**
 
 | **Description:** | Controls the visibility of Menu item 4.           |
 |------------------|---------------------------------------------------|
@@ -471,8 +453,7 @@ Menu Item 4 Properties
 | **Remarks**      | The default value of the property is **false**.   |
 | **Example:**     | this.view.componentID.isVisibleMenuItem4 = false; |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 4.                                                                                                                                                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -482,7 +463,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem4BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
 | **Description:** | Specifies the file name of the image to be set as the Menu item 4 icon.                                                                                                                                                                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -492,7 +473,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem4IconSrc = “itemdel.png”;                                                                                                                                                                                                                                                   |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Text](javascript:void(0);)
+- **Text**
 
 | **Description:** | Specifies the text to be displayed on the label of Menu item 4. |
 |------------------|-----------------------------------------------------------------|
@@ -502,9 +483,9 @@ Image](javascript:void(0);)
 | **Remarks**      | The default value of the property is “Label”.                   |
 | **Example:**     | this.view.componentID.menuItem4Text = “Label”;                  |
 
-Menu Item 5 Properties
+**Menu Item 5 Properties**
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Visibility](javascript:void(0);)
+- **Visibility**
 
 | **Description:** | Controls the visibility of Menu item 5.           |
 |------------------|---------------------------------------------------|
@@ -513,10 +494,8 @@ Menu Item 5 Properties
 | **Read/Write:**  | Read + Write                                      |
 | **Remarks**      | The default value of the property is **false**.   |
 | **Example:**     | this.view.componentID.isVisibleMenuItem5 = false; |
-|                  |                                                   |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Background
-Image](javascript:void(0);)
+- **Background Image**
 
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 5.                                                                                                                                                                                                                          |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -526,7 +505,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem5BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
 | **Description:** | Specifies the file name of the image to be set as the Menu item 5 icon.                                                                                                                                                                                                                                   |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -536,7 +515,7 @@ Image](javascript:void(0);)
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem5IconSrc = “itemprofile.png”;                                                                                                                                                                                                                                               |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Text](javascript:void(0);)
+- **Text**
 
 | **Description:** | Specifies the text to be displayed on the label of Menu item 5. |
 |------------------|-----------------------------------------------------------------|
@@ -552,8 +531,7 @@ You can select skins from the **Exposed Skins** drop-down list on the **Skin**
 tab. This section provides information on how to set Skin by writing a
 JavaScript.
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item 1
-Text](javascript:void(0);)
+- **Menu Item 1 Text**
 
 | **Description:** | Specifies the skin for the text of Menu item 1.                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------|
@@ -563,8 +541,7 @@ Text](javascript:void(0);)
 | **Remarks**      | Before you set the property, ensure that the skin ID that you specify already exists in your app project. |
 | **Example:**     | this.view.componentID.sknMenuItem1Text= "skinname";                                                       |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item 2
-Text](javascript:void(0);)
+- **Menu Item 2 Text**
 
 | **Description:** | Specifies the skin for the text of Menu item 2.                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------|
@@ -574,8 +551,7 @@ Text](javascript:void(0);)
 | **Remarks**      | Before you set the property, ensure that the skin ID that you specify already exists in your app project. |
 | **Example:**     | this.view.componentID.sknMenuItem2Text= "skinname";                                                       |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item 3
-Text](javascript:void(0);)
+- **Menu Item 3 Text**
 
 | **Description:** | Specifies the skin for the text of Menu item 3.                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------|
@@ -585,8 +561,7 @@ Text](javascript:void(0);)
 | **Remarks**      | Before you set the property, ensure that the skin ID that you specify already exists in your app project. |
 | **Example:**     | this.view.componentID.sknMenuItem3Text= "skinname";                                                       |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item 4
-Text](javascript:void(0);)
+- **Menu Item 4 Text**
 
 | **Description:** | Specifies the skin for the text of Menu item 4.                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------|
@@ -596,8 +571,7 @@ Text](javascript:void(0);)
 | **Remarks**      | Before you set the property, ensure that the skin ID that you specify already exists in your app project. |
 | **Example:**     | this.view.componentID.sknMenuItem4Text= "skinname";                                                       |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Menu Item 5
-Text](javascript:void(0);)
+- **Menu Item 5 Text**
 
 | **Description:** | Specifies the skin for the text of Menu item 5.                                                           |
 |------------------|-----------------------------------------------------------------------------------------------------------|
@@ -606,8 +580,6 @@ Text](javascript:void(0);)
 | **Read/Write:**  | Read + Write                                                                                              |
 | **Remarks**      | Before you set the property, ensure that the skin ID that you specify already exists in your app project. |
 | **Example:**     | this.view.componentID.sknMenuItem5Text= "skinname";                                                       |
-|                  |                                                                                                           |
-|                  |                                                                                                           |
 
 ### C. Events
 
@@ -616,14 +588,14 @@ configure the events directly on the **Actions** tab or by writing a JavaScript.
 To configure the events on the **Action** tab, click **Edit** against each
 event.
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickMenuItem1](javascript:void(0);)
+- **onClickMenuItem1**
 
 | **Description:** | The event is invoked when a user clicks Menu item 1. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem1()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem1= function() {  alert( Menu item 1 Clicked ); }                                                            |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickMenuItem2](javascript:void(0);)
+- **onClickMenuItem2**
 
 | **Description:** | The event is invoked when a user clicks Menu item 2. Clicking on the Menu item invokes the assigned action and hides the menu icons. |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------|
@@ -632,34 +604,33 @@ event.
 |                  |                                                                                                                                      |
 |                  |                                                                                                                                      |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickMenuItem3](javascript:void(0);)
+- **onClickMenuItem3**
 
 | **Description:** | The event is invoked when a user clicks Menu item 3. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem3()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem3= function() {  alert( Menu item 3 Clicked ); }                                                            |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickMenuItem4](javascript:void(0);)
+- **onClickMenuItem4**
 
 | **Description:** | The event is invoked when a user clicks Menu item 4. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem4()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem4= function() {  alert( Menu item 4 Clicked ); }                                                            |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickMenuItem5](javascript:void(0);)
+- **onClickMenuItem5**
 
 | **Description:** | The event is invoked when a user clicks Menu item 5. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem5()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem5= function() {  alert( Menu item 5 Clicked ); }                                                            |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)onClickPrimaryButton](javascript:void(0);)
+- **onClickPrimaryButton**
 
 | **Description:** | The event is invoked when a user clicks the Primary Button. The Primary Button will show/hide the menu items. |
 |------------------|---------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickPrimaryButton()                                                                                        |
 | **Example:**     | this.view.componentID.onClickPrimaryButton= function() {  alert( Primary button Clicked ); }                  |
-|                  |                                                                                                               |
 
 # 4. REVISION HISTORY
 
