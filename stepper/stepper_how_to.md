@@ -134,7 +134,7 @@ your app dynamically. To do so, follow the given steps.
 
     }, {}, {});
 
-    /\* Setting the component's properties \*/
+    /* Setting the component's properties */
 
     stepper.initialValue = 1;
 
@@ -298,7 +298,7 @@ App version 1.0.3:
 
 ## A. Limitations
 
-1.voltmx.ui.toast works only in Android Platform . So the message(Min and Max
+1. voltmx.ui.toast works only in Android Platform . So the message (Min and Max
 value is reached) will be displayed only in android.
 
 2\. If browser height is minimized then UI gets distorted.
