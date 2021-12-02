@@ -541,7 +541,7 @@ Image](javascript:void(0);)
 | **Remarks**      | The default value of the property is “Label".                   |
 | **Example:**     | this.view.componentID.menuItem5Text = "Label";                  |
 
-Skin
+### Skin
 
 You can select skins from the **Exposed Skins** drop-down list on the **Skin**
 tab. This section provides information on how to set Skin by writing a
