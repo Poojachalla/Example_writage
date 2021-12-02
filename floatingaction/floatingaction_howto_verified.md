@@ -90,7 +90,7 @@ generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
     component, and then click **Import**. The component and its associated
     widgets and modules are added to your project.
 
-## ![A picture containing text Description automatically generated](media/695798a0a2009ce0df8e5afc0798ea81.png)
+![A picture containing text Description automatically generated](media/695798a0a2009ce0df8e5afc0798ea81.png)
 
 Once you have imported a component to your project, you can easily add the
 component to a form.
