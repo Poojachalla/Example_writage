@@ -254,7 +254,7 @@ section of the Volt MX Iris User Guide.
 Make sure that the skins that you assign to a **widget** are of the same
 **widget type**.
 
-7\. Flex Number Skin(flxNumberSkin)
+**7\. Flex Number Skin(flxNumberSkin)**
 
 | **Description:** | This skin links to the background of the [counter](javascript:void(0);).                                                                  |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
@@ -264,7 +264,7 @@ Make sure that the skins that you assign to a **widget** are of the same
 
 ![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)
 
-8\. Label Digit Skin(lblDigitSkin)
+**8\. Label Digit Skin(lblDigitSkin)**
 
 | **Description:** | This skin links to the text label of the [counter](javascript:void(0);).                                                 |
 |------------------|--------------------------------------------------------------------------------------------------------------------------|
