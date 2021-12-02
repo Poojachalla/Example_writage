@@ -98,7 +98,7 @@ section to access the respective **Form Controller**. Create a method and
 implement the code snippet like the sample code mentioned below.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    /\* Creating Image Capture component instance \*/
+    /* Creating Image Capture component instance */
 
     var imgCaptureInstance = new com.voltmxsa.imagecapture ({
 
