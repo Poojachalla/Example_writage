@@ -292,7 +292,7 @@ getStepperValue](javascript:void(0);)
 | **Return Value:** | *count [String]* : The current value on the counter.                                 |
 | **Example:**      | var count = this.view.componentID.getStepperValue(); alert("Counter Value: "+count); |
 
-# Revision History
+# 4. Revision History
 
 App version 1.0.3:
 
