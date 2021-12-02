@@ -239,7 +239,7 @@ using a JavaScript code.
 
 **C. API’s**
 
-1.  toggleBackground
+**1.  toggleBackground**
 
 | **Description:**  | This is the custom method to display the background colour of component |
 |-------------------|-------------------------------------------------------------------------|
@@ -250,7 +250,7 @@ using a JavaScript code.
 
 **D. Events**
 
-1.  onImageSelection
+**1.  onImageSelection**
 
 | **Description:** | The event is invoked when a user wants to select the image.                                       |
 |------------------|---------------------------------------------------------------------------------------------------|
