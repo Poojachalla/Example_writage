@@ -264,7 +264,7 @@ Parameters : isVisible
 
 Example : this.view.hamMenu.setMenuVisibility(false);
 
-1.  setData
+2.  setData
 
 Description : Sets the Data to the Form.
 
