@@ -229,14 +229,7 @@ You can configure the events by writing a JavaScript
 |------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Syntax  :        | onMenuItemClick                                                                                                                                   |
 |  Parameters  :   | menuItemObject  Contains the following keys. menuItemIndex : The index of the menu item. menuItemText : The text from the label of the menu item. |
-
-Example : this.view.hamMenu.onMenuItemClick= this.onRowClick;
-
-onRowClick:function(){
-
-this.view.hamMenu.setMenuVisibility(false);
-
-}
+| Example : 	   |this.view.hamMenu.onMenuItemClick= this.onRowClick;<br/>onRowClick:function(){<br/>this.view.hamMenu.setMenuVisibility(false);<br/>}     |			
 
 # D.  APIs
 
@@ -244,23 +237,19 @@ The following APIs pertain to the Hamburger Menu component:
 
 **1.  setMenuVisibility**
 
-Description : Sets the visibility of the Menu for the form.
-
-Syntax. : setMenuVisibility(formReference)
-
-Parameters : isVisible
-
-Example : this.view.hamMenu.setMenuVisibility(false);
+| Description:	   | Sets the visibility of the Menu for the form.                                                                                                |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Syntax :     |   setMenuVisibility(formReference)                                                                                                   |
+| Parameters :     | isVisible                                                                                                                                   |
+| Example :    | this.view.hamMenu.setMenuVisibility(false); |
 
 **2.  setData**
 
-Description : Sets the Data to the Form.
-
-Syntax. : setData(formReference)
-
-Parameters : data
-
-Example : this.view.hamMenu.setData(sampleData);
+| Description:	   | Sets the Data to the Form.                                                                                          |
+|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| Syntax :     |   setData(formReference)                                                                                               |
+| Parameters :     | data                                                                                                                                  |
+| Example :    |this.view.hamMenu.setData(sampleData); |
 
 MarketPlace URl : <https://marketplace.kony.com/items/hamburger-menu>
 
