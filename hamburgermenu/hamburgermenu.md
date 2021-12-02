@@ -79,7 +79,7 @@ Once you have imported a component to your project, you can easily add the
 component to a form. For more information, refer [Add a Component to a
 Form](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_user_guide/Content/C_UsingComponents.html%22%20/l%20%22add-a-component-to-a-form).
 
-1.  Building and previewing the app
+## D.  Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on
 your device. For more information, you can refer to the [Building and
