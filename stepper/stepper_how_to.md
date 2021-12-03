@@ -1,29 +1,29 @@
 
 # STEPPER (1.0.3)
 
-# 1.Overview
+## 1.Overview
 
 The stepper component is a number increment counter. This component provides a
 basic stepper template which returns the selected number. It is generally used
 to denote order quantity, number of items, etc. This type of component is
 generally used in retail, e-commerce and other similar scenarios.
 
-## A. Use case
+### A. Use case
 
 i.   select a number between two limits, such as in a shopping cart or a product catalogue .
 
-## B. Features
+### B. Features
 
 i.   This component provides a basic stepper template which returns the selected
     number.
 
-## C. Percentage of re-use:
+### C. Percentage of re-use:
 
 90%
 
-# 2.Getting Started
+## 2.Getting Started
 
-## A. Prerequisites
+### A. Prerequisites
 
 This is a getting started section for the Stepper component. It contains
 information about setting up and running your component in an application.
@@ -35,7 +35,7 @@ prerequisites.
 
 -   Volt MX Iris
 
-## B. Platforms Supported
+### B. Platforms Supported
 
 i.	Mobile
 
@@ -47,7 +47,7 @@ ii.	Tablets
 
 iii.	PWA
     
-## C. Importing the Component
+### C. Importing the Component
 
 You can import the Forge components only into the apps that are of the Reference Architecture type.
 
@@ -77,7 +77,7 @@ and modules are added to your project.
 
 Once you have imported a component to your project, you can easily add the component to a form. For more information, refer Add a Component to a Form.
 
-## D. Building and previewing the app
+### D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device. For more information, you can refer to the [Building and Viewing an
@@ -87,9 +87,9 @@ section of the Volt MX Iris User Guide.
 You can then run your app to see the Stepper work in real time.
 
 
-# 3. References
+## 3. References
 
-## A. Dynamic Usage
+### A. Dynamic Usage
 
 If you want to use the Stepper component dynamically, you will need to import
 the component into your project **Templates**.
@@ -163,7 +163,7 @@ information, refer to the [Add
 Actions](https://opensource.hcltechsw.com/volt-mx-docs/docs/tutorials/ActionEditor.html)
 section of the Volt MX Iris User Guide.
 
-## B. Properties
+### B. Properties
 
 You can use **Properties** to customize and configure the elements of a
 component. These elements can be UI elements, service parameters, and so on. For
@@ -179,8 +179,9 @@ code.
 
 **1. Initial Value(initialValue)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the value that you want to display on the [counter](javascript:void(0);). |
-|--------------------|-------------------------------------------------------------------------------------|
 | **Syntax:**        | initialValue                                                                        |
 | **Type:**          | Number                                                                              |
 | **Read/Write:**    | Read + Write                                                                        |
@@ -189,8 +190,9 @@ code.
 
 **2.** [**Min Value**](javascript:void(0);)**(counterStartValue)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the minimum value that you want to allow on the [counter](javascript:void(0);).                                                |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**        | counterStartValue                                                                                                                        |
 | **Type:**          | Integer                                                                                                                                  |
 | **Read/Write:**    | Read + Write                                                                                                                             |
@@ -200,8 +202,9 @@ code.
 
 **3.**[**Max Value**](javascript:void(0);)**(counterEndValue)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the maximum value that you want to allow on the [counter](javascript:void(0);).                                                 |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**        | counterEndValue                                                                                                                           |
 | **Type:**          | Integer                                                                                                                                   |
 | **Read/Write:**    | Read + Write                                                                                                                              |
@@ -211,8 +214,9 @@ code.
 
 **4. Increment Value (incrementValue)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the maximum value that you want to allow on the [counter](javascript:void(0);).                                                 |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**        | incrementValue                                                                                                                            |
 | **Type:**          | Integer                                                                                                                                   |
 | **Read/Write:**    | Read + Write                                                                                                                              |
@@ -222,8 +226,9 @@ code.
 
 **5. Plus Button(imgPlusSrc)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the source of the image that you want to display on the [plus button](javascript:void(0);). |
-|--------------------|-------------------------------------------------------------------------------------------------------|
 | **Syntax:**        | imgPlusSrc                                                                                            |
 | **Type:**          | List Selector String                                                                                  |
 | **Read/Write:**    | Read + Write                                                                                          |
@@ -233,8 +238,9 @@ code.
 
 **6. Minus Button(imgSubSrc)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**   | Specifies the source of the image that you want to display on the [minus button](javascript:void(0);). |
-|--------------------|--------------------------------------------------------------------------------------------------------|
 | **Syntax:**        | imgSubSrc                                                                                              |
 | **Type:**          | List Selector String                                                                                   |
 | **Read/Write:**    | Read + Write                                                                                           |
@@ -242,7 +248,7 @@ code.
 | **Remarks:**       | Make sure that the image that you want to use exists in the *Resources* folder of your workspace.      |
 | **Example:**       | this.view.componentID. imgSubSrc = "minus.png";                                                        |
 
-## **Skins**
+### **Skins**
 
 Skins define the appearance of a widget. You can apply and manipulate skins
 based on your preference. For more information, refer to the [Understanding
@@ -256,8 +262,9 @@ Make sure that the skins that you assign to a **widget** are of the same
 
 **7\. Flex Number Skin(flxNumberSkin)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | This skin links to the background of the [counter](javascript:void(0);).                                                                  |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | flxNumberSkin                                                                                                                             |
 | **Widget Type:** | [Flex Container](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_widget_prog_guide/Content/FlexContainer.html) |
 | **Example:**     | this.view.componentID.flxNumberSkin = " voltmxstpsknFlx78a8f0BG";                                                                         |
@@ -266,37 +273,38 @@ Make sure that the skins that you assign to a **widget** are of the same
 
 **8\. Label Digit Skin(lblDigitSkin)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | This skin links to the text label of the [counter](javascript:void(0);).                                                 |
-|------------------|--------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | lblDigitSkin                                                                                                             |
 | **Widget Type:** | [Label](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_widget_prog_guide/Content/label.html) |
 | **Example:**     | this.view.componentID.lblSkin = " voltmxstpsknLblfffcffFT";                                                              |
 
 ## 
 
-## C. Events
+### C. Events
 
 \-- None of the events are exposed.
 
-## D. API’s
+### D. API’s
 
 The following APIs pertain to the Stepper component:
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)1.
-getStepperValue](javascript:void(0);)
+**1.getStepperValue**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**  | Retrieves the current value on the counter.                                          |
-|-------------------|--------------------------------------------------------------------------------------|
 | **Syntax:**       | getStepperValue()                                                                    |
 | **Parameters:**   | None                                                                                 |
 | **Return Value:** | *count [String]* : The current value on the counter.                                 |
 | **Example:**      | var count = this.view.componentID.getStepperValue(); alert("Counter Value: "+count); |
 
-# 4. Revision History
+## 4. Revision History
 
 App version 1.0.3:
 
-## A. Limitations
+### A. Limitations
 
 1. voltmx.ui.toast works only in Android Platform . So the message (Min and Max
 value is reached) will be displayed only in android.
