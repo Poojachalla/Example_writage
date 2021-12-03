@@ -1,7 +1,7 @@
 
 # HAMBURGER MENU (1.2.2)
 
-# 1.  Overview
+## 1.  Overview
 
 Hamburger Menu adds a menu to your application. You can click or tap the
 hamburger icon to open a menu that contains a header, a list of menu items,
@@ -12,24 +12,24 @@ and add actions to execute when a menu item is clicked. You can use the
 Hamburger Menu component in scenarios where you want to save screen space
 without losing out on functionality.
 
-## A. Use case
+### A. Use case
 
 To hide the navigation menu to the edge of the screen and reveal it only after a
 user’s action. This pattern can be particularly useful if you want your user to
 focus on the main content.
 
-## B.  Features
+### B.  Features
 
 The component allows you to hide the navigation menu to the edge of the
 screen and reveal it only after a user’s action
 
-## C. Percentage of re-use:
+### C. Percentage of re-use:
 
 90%
 
-# 2. GETTING STARTED
+## 2. GETTING STARTED
 
-## A. Prerequisites
+### A. Prerequisites
 
 Before you start using the Hamburger Menu component, ensure the following:
 
@@ -37,7 +37,7 @@ Before you start using the Hamburger Menu component, ensure the following:
 
 -   Volt MX Iris
 
-## B. Platforms Supported
+### B. Platforms Supported
 
 i.  Mobile
 
@@ -49,7 +49,7 @@ ii.  Tablets
 
 iii.  PWA
 
-## C. Importing the Component
+### C. Importing the Component
 
 You can import the Forge components only into the apps that are of the Reference
 Architecture type.
@@ -79,7 +79,7 @@ Once you have imported a component to your project, you can easily add the
 component to a form. For more information, refer [Add a Component to a
 Form](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_user_guide/Content/C_UsingComponents.html%22%20/l%20%22add-a-component-to-a-form).
 
-## D.  Building and previewing the app
+### D.  Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on
 your device. For more information, you can refer to the [Building and
@@ -89,9 +89,9 @@ section of the Iris User Guide.
 
 You can then run your app to see the Hamburger Menu work in real time.
 
-# 3.  REFERENCES
+## 3.  REFERENCES
 
-## A.  Dynamic Usage
+### A.  Dynamic Usage
 
 You can also add a **Hamburger Menu**  component dynamically. To do so,
 
@@ -164,7 +164,7 @@ your requirement. For more information, see Setting Properties.
 
 2. **Save** the file.
 
-## B. Properties
+### B. Properties
 
 You can use a component's **Properties** to customize and configure the
 elements. These elements can be UI elements, service parameters, and so on.
@@ -174,8 +174,9 @@ side. You can also configure these properties using a JavaScript code.
 
 **1. Menu Items**
 
+|<!-- --> |<!-- -->|
+|---------|--------|
 | Description:	   | Specifies the list of menu items that you want to display on the component 		                                                       |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Syntax  :        | menuItems                                                                                                                                    |
 |  Type   :   | Master Data <br/>Array of JSON |
 | Read/Write :	| Read + Write						|
@@ -201,8 +202,9 @@ generated](media/22b9b57df4348b8817115ea695b9263d.png)
 
 **2.Flex Hamburger Menu Width (flxHamMenuWidth)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description** : | This property enables the consumer to change the Flex Width of the Hamburger Menu component		|
-|------------------|--------------------------------------------------------------------------------------------------------------------|
 | Syntax  :        | flxHamMenuWidth                                          |             
 |  Type   :   | Flex Container |
 | Read/Write :	| Read + Write						|
@@ -210,14 +212,15 @@ generated](media/22b9b57df4348b8817115ea695b9263d.png)
 
 **3.Flex Hamburger Menu skin(flxHamMenuskin)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description** : | This property enables the consumer to change the Flex Skin of the Hamburger Menu component.			|
-|------------------|--------------------------------------------------------------------------------------------------------------------|
 | Syntax  :        | flxHamMenuskin	                                          |             
 |  Type   :   | Flex Container |
 | Read/Write :	| Read + Write						|
 | Example **:**| HamMenu.sknHamMenu="voltmxsmhamMenu";					|
 
-# C. **Events**
+### C. **Events**
 
 The component invokes events when its corresponding action is performed. You can
 configure any logic you want the component to perform whenever an event occurs.
@@ -225,37 +228,40 @@ You can configure the events by writing a JavaScript
 
 **1.onMenuItemClick**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | Description:	   | Invoked when the user taps or clicks a menu item.                                                                                                 |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Syntax  :        | onMenuItemClick                                                                                                                                   |
 |  Parameters  :   | menuItemObject  Contains the following keys. menuItemIndex : The index of the menu item. menuItemText : The text from the label of the menu item. |
 | Example : 	   |this.view.hamMenu.onMenuItemClick= this.onRowClick;<br/>onRowClick:function(){<br/>this.view.hamMenu.setMenuVisibility(false);<br/>}     |			
 
-# D.  APIs
+### D.  APIs
 
 The following APIs pertain to the Hamburger Menu component:
 
 **1.  setMenuVisibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | Description:	   | Sets the visibility of the Menu for the form.                                                                                                |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Syntax :     |   setMenuVisibility(formReference)                                                                                                   |
 | Parameters :     | isVisible                                                                                                                                   |
 | Example :    | this.view.hamMenu.setMenuVisibility(false); |
 
 **2.  setData**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | Description:	   | Sets the Data to the Form.                                                                                          |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | Syntax :     |   setData(formReference)                                                                                               |
 | Parameters :     | data                                                                                                                                  |
 | Example :    |this.view.hamMenu.setData(sampleData); |
 
-MarketPlace URl : <https://marketplace.kony.com/items/hamburger-menu>
+**MarketPlace URl :** <https://marketplace.kony.com/items/hamburger-menu>
 
-FigmaLink :
+**FigmaLink :**
 <https://www.figma.com/file/JhKHQDUGrVQzKCA3XKON4j/UI-Components?node-id=312%3A6778>
 
-# 4.  REVISION HISTORY
+## 4.  REVISION HISTORY
 
 App version 1.2.2
