@@ -1,13 +1,13 @@
 
 # Floating Action Component (1.0.4)
 
-# 1. Overview
+## 1. Overview
 
 A floating action represents/promotes the primary action in an application. It
 is essentially a circular button floating over the UI. When pressed, it may
 present more related actions.
 
-## A. Use case
+### A. Use case
 
 I.	Consider a case that you are developing an email application that allows
     users to skin perform actions, such as compose, send, receive, and read
@@ -29,11 +29,11 @@ V.	You can import the Floating Action component into your app and make use of
     properties and events that helps you customize the fields and the
     functionality.
 
-## B. Percentage of re-use:
+### B. Percentage of re-use:
 
 Approximate 85% of reuse.
 
-## C. Features
+### C. Features
 
 -   Promote your app’s primary actions
 
@@ -45,9 +45,9 @@ Approximate 85% of reuse.
 
 -   Option to set background overlay
 
-# 2. Getting Started
+## 2. Getting Started
 
-## A. Prerequisites
+### A. Prerequisites
 
 Before you start using the Floating Action component, ensure the following:
 
@@ -55,7 +55,7 @@ Before you start using the Floating Action component, ensure the following:
 
 • Volt MX Iris
 
-## B. Platforms Supported
+### B. Platforms Supported
 
 i. Mobile
 
@@ -67,7 +67,7 @@ ii. Tablet & iPad
 
 iii. PWA & Responsive Web
 
-## C. Importing the app
+### C. Importing the app
 
 You can import the Forge components only into the apps that are of the Reference Architecture type.
 
@@ -95,16 +95,16 @@ generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
 Once you have imported a component to your project, you can easily add the
 component to a form.
 
-## D. Building and previewing the app
+### D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device.
 
 You can then run your app to see the Floating Action work in real time.
 
-# 3.References
+## 3.References
 
-## A\. Dynamic Usage
+### A\. Dynamic Usage
 
 You can also add **Floating Action** component dynamically. To do so,
 
@@ -241,7 +241,7 @@ In the **Project Explorer**, on the **Projects** tab, click **Controllers** sect
 In the code snippet, you can edit the properties of the component as per your
 requirement. For more information, see Setting Properties. And save the file
 
-## B. Properties
+### B. Properties
 
 The properties provided on the **Component** tab allow you to customize the UI
 elements in the Floating Action component. You can set the properties directly
@@ -274,8 +274,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Enable Background Overlay**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of the background overlay.                                                     |
-|------------------|--------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | enableOverlay                                                                                          |
 | **Type:**        | Boolean                                                                                                |
 | **Read/Write:**  | Read + Write                                                                                           |
@@ -284,8 +285,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Overlay Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the name of the image to be set as the background overlay.                                                                                                                                                                                                                                      |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | imgBGOverlaySrc                                                                                                                                                                                                                                                                                           |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -296,18 +298,20 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background for the Primary Button.                                                                                                                                                                                                                  |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | primaryButtonBGSrc                                                                                                                                                                                                                                                                                        |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
 | **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.primaryButtonBGSrc= “bg.png”;                                                                                                                                                                                                                                                       |
 
-[![Open](media/50085591b69ee0da3fa16386d95d0f9d.gif)Icon](javascript:void(0);)
+- **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Primary Button icon.                                                                                                                                                                                                                                |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | imgPrimaryIcon                                                                                                                                                                                                                                                                                            |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -318,8 +322,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Visibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of Menu item 1.          |
-|------------------|--------------------------------------------------|
 | **Syntax:**      | isVisibleMenuItem1                               |
 | **Type:**        | Boolean                                          |
 | **Read/Write:**  | Read + Write                                     |
@@ -328,8 +333,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 1.                                                                                                                                                                                                                          |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem1BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -338,8 +344,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Menu item 1 icon.                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem1IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -348,8 +355,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the text to be displayed on the label of Menu item 1. |
-|------------------|-----------------------------------------------------------------|
 | **Syntax:**      | menuItem1Text                                                   |
 | **Type:**        | String                                                          |
 | **Read/Write:**  | Read + Write                                                    |
@@ -360,8 +368,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Visibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of Menu item 2.          |
-|------------------|--------------------------------------------------|
 | **Syntax:**      | isVisibleMenuItem2                               |
 | **Type:**        | Boolean                                          |
 | **Read/Write:**  | Read + Write                                     |
@@ -371,8 +380,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 2.                                                                                                                                                                                                                          |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem2BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -381,8 +391,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Menu item 2 icon.                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem2IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -391,20 +402,22 @@ information on how to set the properties by writing a JavaScript.
 
 - **Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the text to be displayed on the label of Menu item 2. |
-|------------------|-----------------------------------------------------------------|
 | **Syntax:**      | menuItem2Text                                                   |
 | **Type:**        | String                                                          |
 | **Read/Write:**  | Read + Write                                                    |
 | **Remarks**      | The default value of the property is “Label”.                   |
 | **Example:**     | this.view.componentID.menuItem2Text = “Label”;                  |
 
-**Menu Item 3 Properties
+**Menu Item 3 Properties**
 
 - **Visibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of Menu item 3.          |
-|------------------|--------------------------------------------------|
 | **Syntax:**      | isVisibleMenuItem3                               |
 | **Type:**        | Boolean                                          |
 | **Read/Write:**  | Read + Write                                     |
@@ -413,8 +426,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 3.                                                                                                                                                                                                                          |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem3BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -423,8 +437,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Menu item 3 icon.                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem3IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -433,8 +448,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the text to be displayed on the label of Menu item 3. |
-|------------------|-----------------------------------------------------------------|
 | **Syntax:**      | menuItem3Text                                                   |
 | **Type:**        | String                                                          |
 | **Read/Write:**  | Read + Write                                                    |
@@ -445,8 +461,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Visibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of Menu item 4.           |
-|------------------|---------------------------------------------------|
 | **Syntax:**      | isVisibleMenuItem4                                |
 | **Type:**        | Boolean                                           |
 | **Read/Write:**  | Read + Write                                      |
@@ -455,8 +472,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 4.                                                                                                                                                                                                                          |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem4BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -465,8 +483,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Menu item 4 icon.                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem4IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -475,8 +494,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the text to be displayed on the label of Menu item 4. |
-|------------------|-----------------------------------------------------------------|
 | **Syntax:**      | menuItem4Text                                                   |
 | **Type:**        | String                                                          |
 | **Read/Write:**  | Read + Write                                                    |
@@ -487,8 +507,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Visibility**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Controls the visibility of Menu item 5.           |
-|------------------|---------------------------------------------------|
 | **Syntax:**      | isVisibleMenuItem5                                |
 | **Type:**        | Boolean                                           |
 | **Read/Write:**  | Read + Write                                      |
@@ -497,8 +518,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Background Image**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the background of Menu item 5.                                                                                                                                                                                                                          |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem5BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -507,8 +529,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Icon**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the file name of the image to be set as the Menu item 5 icon.                                                                                                                                                                                                                                   |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | menuItem5IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
@@ -517,8 +540,9 @@ information on how to set the properties by writing a JavaScript.
 
 - **Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the text to be displayed on the label of Menu item 5. |
-|------------------|-----------------------------------------------------------------|
 | **Syntax:**      | menuItem5Text                                                   |
 | **Type:**        | String                                                          |
 | **Read/Write:**  | Read + Write                                                    |
@@ -533,8 +557,9 @@ JavaScript.
 
 - **Menu Item 1 Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin for the text of Menu item 1.                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | sknMenuItem1Text                                                                                          |
 | **Type:**        | String                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                              |
@@ -543,8 +568,9 @@ JavaScript.
 
 - **Menu Item 2 Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin for the text of Menu item 2.                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | sknMenuItem2Text                                                                                          |
 | **Type:**        | String                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                              |
@@ -553,8 +579,9 @@ JavaScript.
 
 - **Menu Item 3 Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin for the text of Menu item 3.                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | sknMenuItem3Text                                                                                          |
 | **Type:**        | String                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                              |
@@ -563,8 +590,9 @@ JavaScript.
 
 - **Menu Item 4 Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin for the text of Menu item 4.                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | sknMenuItem4Text                                                                                          |
 | **Type:**        | String                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                              |
@@ -573,8 +601,9 @@ JavaScript.
 
 - **Menu Item 5 Text**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin for the text of Menu item 5.                                                           |
-|------------------|-----------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | sknMenuItem5Text                                                                                          |
 | **Type:**        | String                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                              |
@@ -590,15 +619,17 @@ event.
 
 - **onClickMenuItem1**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 1. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem1()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem1= function() {  alert( Menu item 1 Clicked ); }                                                            |
 
 - **onClickMenuItem2**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 2. Clicking on the Menu item invokes the assigned action and hides the menu icons. |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem2()                                                                                                                   |
 | **Example:**     | this.view.componentID.onClickMenuItem2= function() {  alert( Menu item 2 Clicked ); }                                                |
 |                  |                                                                                                                                      |
@@ -606,37 +637,41 @@ event.
 
 - **onClickMenuItem3**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 3. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem3()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem3= function() {  alert( Menu item 3 Clicked ); }                                                            |
 
 - **onClickMenuItem4**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 4. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem4()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem4= function() {  alert( Menu item 4 Clicked ); }                                                            |
 
 - **onClickMenuItem5**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 5. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
-|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickMenuItem5()                                                                                                                               |
 | **Example:**     | this.view.componentID.onClickMenuItem5= function() {  alert( Menu item 5 Clicked ); }                                                            |
 
 - **onClickPrimaryButton**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user clicks the Primary Button. The Primary Button will show/hide the menu items. |
-|------------------|---------------------------------------------------------------------------------------------------------------|
 | **Syntax:**      | onClickPrimaryButton()                                                                                        |
 | **Example:**     | this.view.componentID.onClickPrimaryButton= function() {  alert( Primary button Clicked ); }                  |
 
-# 4. REVISION HISTORY
+## 4. REVISION HISTORY
 
 App version: 1.0.4
 
-## A. Known Issues
+### A. Known Issues
 
 1.  Extra space is displayed next to the floating action Icons.
 
@@ -647,7 +682,7 @@ App version: 1.0.4
 4.  After changing a break point one must click on the primary button to make
     menu visible (even if it is ON previously)
 
-## B. Limitations
+### B. Limitations
 
 1. Landscape mode is not supported.
 
