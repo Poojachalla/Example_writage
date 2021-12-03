@@ -60,19 +60,19 @@ Architecture type.
 
 2.  In the Project Explorer, click the **Templates** tab.
 
-![](media/9700d3433b3a832a8b56c65cd364af8a.png)
+     ![](media/9700d3433b3a832a8b56c65cd364af8a.png)
 
 3.  Right-click **Components**, and then select **Import Component**. The
     **Import Component** dialog box appears.
 
-    ![Graphical user interface, application, Teams Description automatically
+     ![Graphical user interface, application, Teams Description automatically
     generated](media/2daf3918e95a712deace3e36aa2d9f6f.png)
 
 4.  Click **Browse** to navigate to the location of the component, select the
     component, and then click **Import**. The component and its associated
     widgets and modules are added to your project.
 
-![](media/936c94aea504a4aeb2bcca0112a5682f.png)
+     ![](media/936c94aea504a4aeb2bcca0112a5682f.png)
 
 Once you have imported a component to your project, you can easily add the
 component to a form. For more information, refer [Add a Component to a
@@ -120,7 +120,7 @@ implement the code snippet like the sample code mentioned below.
 
     }, {}, {});
 
-    /\*Setting the component's properties\*/
+    /*Setting the component's properties*/
 
     imgCaptureInstance.skinFlxCamera="sknFlxCompCamera";
 
@@ -142,7 +142,7 @@ implement the code snippet like the sample code mentioned below.
 
     };
 
-    /\*Adding the Image Capture component to a Form\*/
+    /*Adding the Image Capture component to a Form*/
 
     this.view.add(imgCaptureInstance);
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -164,7 +164,7 @@ using a JavaScript code.
 
 **Skins Section**
 
-**1.Header**
+**Header**
 
 **1. Camera flex Background Skin(sknFlxCompCamera)**
 
@@ -263,9 +263,8 @@ using a JavaScript code.
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:** | The event is invoked when a user wants to select the image.                                       |
-|------------------|---------------------------------------------------------------------------------------------------|
 | Syntax:          | onImageSelection()                                                                                |
-| **Example:**     | this. view. ImageCapture. onImageSelection= function () { alert (“onImageSelection executed”); }; |
+| **Example:**     | this. view. ImageCapture. onImageSelection= function ()<br/> {<br/> alert (“onImageSelection executed”);<br/> }; |
 
 **Project Settings**:
 
