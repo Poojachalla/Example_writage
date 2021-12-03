@@ -77,7 +77,7 @@ You can import the Forge components only into the apps that are of the Reference
 
 2. In the Project Explorer, click the Templates Tab
 
-![Graphical user interface, text, application Description automatically
+    ![Graphical user interface, text, application Description automatically
 generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
 
 3. Right-click **Components**, and then select **Import Component**. The
@@ -90,7 +90,7 @@ generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
     component, and then click **Import**. The component and its associated
     widgets and modules are added to your project.
 
-![A picture containing text Description automatically generated](media/695798a0a2009ce0df8e5afc0798ea81.png)
+   ![A picture containing text Description automatically generated](media/695798a0a2009ce0df8e5afc0798ea81.png)
 
 Once you have imported a component to your project, you can easily add the
 component to a form.
@@ -291,7 +291,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | imgBGOverlaySrc                                                                                                                                                                                                                                                                                           |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.imgBGOverlaySrc = “fade.png”;                                                                                                                                                                                                                                                       |
 
 **Primary Button Properties**
@@ -304,7 +304,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | primaryButtonBGSrc                                                                                                                                                                                                                                                                                        |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.primaryButtonBGSrc= “bg.png”;                                                                                                                                                                                                                                                       |
 
 - **Icon**
@@ -315,7 +315,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | imgPrimaryIcon                                                                                                                                                                                                                                                                                            |
 | **Type:**        | String                                                                                                                                                                                                                                                                                                    |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.imgPrimaryIcon= “icon_plus.png”;                                                                                                                                                                                                                                                    |
 
 **Menu Item 1 Properties**
@@ -339,7 +339,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem1BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem1BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
 - **Icon**
@@ -350,7 +350,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem1IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following: <br />• Ensure that the image file exists in the *workspace\\resources\\common* directory. <br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem1IconSrc = “itempen.png”;                                                                                                                                                                                                                                                   |
 
 - **Text**
@@ -386,7 +386,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem2BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory. <br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem2BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
 - **Icon**
@@ -397,7 +397,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem2IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem2IconSrc = “itemstar.png”;                                                                                                                                                                                                                                                  |
 
 - **Text**
@@ -432,7 +432,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem3BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br /> •Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem3BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
 - **Icon**
@@ -443,7 +443,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem3IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem3IconSrc = “itemprofile.png”;                                                                                                                                                                                                                                               |
 
 - **Text**
@@ -478,7 +478,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem4BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image. <br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem4BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
 - **Icon**
@@ -489,7 +489,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem4IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem4IconSrc = “itemdel.png”;                                                                                                                                                                                                                                                   |
 
 - **Text**
@@ -524,7 +524,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem5BGSrc                                                                                                                                                                                                                                                                                            |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image.<br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem5BGSrc = “itemiconbg.png”;                                                                                                                                                                                                                                                  |
 
 - **Icon**
@@ -535,7 +535,7 @@ information on how to set the properties by writing a JavaScript.
 | **Syntax:**      | menuItem5IconSrc                                                                                                                                                                                                                                                                                          |
 | **Type:**        | Image                                                                                                                                                                                                                                                                                                     |
 | **Read/Write:**  | Read + Write                                                                                                                                                                                                                                                                                              |
-| **Remarks**      | Before setting the property, do the following: Ensure that the image file exists in the *workspace\\resources\\common* directory. Do not add any uppercase characters in the file name of the image. Ensure that the image is in PNG format. Specify the file name of the image along with the extension. |
+| **Remarks**      | Before setting the property, do the following:<br />• Ensure that the image file exists in the *workspace\\resources\\common* directory.<br />• Do not add any uppercase characters in the file name of the image. <br />• Ensure that the image is in PNG format.<br />• Specify the file name of the image along with the extension. |
 | **Example:**     | this.view.componentID.menuItem5IconSrc = “itemprofile.png”;                                                                                                                                                                                                                                               |
 
 - **Text**
@@ -623,7 +623,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 1. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 | **Syntax:**      | onClickMenuItem1()                                                                                                                               |
-| **Example:**     | this.view.componentID.onClickMenuItem1= function() {  alert( Menu item 1 Clicked ); }                                                            |
+| **Example:**     | this.view.componentID.onClickMenuItem1= function()<br /> {<br />  alert( Menu item 1 Clicked );<br /> }                                          |
 
 - **onClickMenuItem2**
 
@@ -631,7 +631,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 2. Clicking on the Menu item invokes the assigned action and hides the menu icons. |
 | **Syntax:**      | onClickMenuItem2()                                                                                                                   |
-| **Example:**     | this.view.componentID.onClickMenuItem2= function() {  alert( Menu item 2 Clicked ); }                                                |
+| **Example:**     | this.view.componentID.onClickMenuItem2= function()<br /> {<br />  alert( Menu item 2 Clicked );<br /> }                                                |
 |                  |                                                                                                                                      |
 |                  |                                                                                                                                      |
 
@@ -641,7 +641,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 3. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 | **Syntax:**      | onClickMenuItem3()                                                                                                                               |
-| **Example:**     | this.view.componentID.onClickMenuItem3= function() {  alert( Menu item 3 Clicked ); }                                                            |
+| **Example:**     | this.view.componentID.onClickMenuItem3= function()<br /> {<br />  alert( Menu item 3 Clicked ); <br />}                                                            |
 
 - **onClickMenuItem4**
 
@@ -649,7 +649,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 4. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 | **Syntax:**      | onClickMenuItem4()                                                                                                                               |
-| **Example:**     | this.view.componentID.onClickMenuItem4= function() {  alert( Menu item 4 Clicked ); }                                                            |
+| **Example:**     | this.view.componentID.onClickMenuItem4= function()<br /> {<br />  alert( Menu item 4 Clicked ); <br />}                                                            |
 
 - **onClickMenuItem5**
 
@@ -657,7 +657,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks Menu item 5. Clicking the menu item invokes the assigned action and hides the menu items simultaneously. |
 | **Syntax:**      | onClickMenuItem5()                                                                                                                               |
-| **Example:**     | this.view.componentID.onClickMenuItem5= function() {  alert( Menu item 5 Clicked ); }                                                            |
+| **Example:**     | this.view.componentID.onClickMenuItem5= function()<br /> {<br />  alert( Menu item 5 Clicked ); <br />}                                          |
 
 - **onClickPrimaryButton**
 
@@ -665,7 +665,7 @@ event.
 |-------------|-------------|
 | **Description:** | The event is invoked when a user clicks the Primary Button. The Primary Button will show/hide the menu items. |
 | **Syntax:**      | onClickPrimaryButton()                                                                                        |
-| **Example:**     | this.view.componentID.onClickPrimaryButton= function() {  alert( Primary button Clicked ); }                  |
+| **Example:**     | this.view.componentID.onClickPrimaryButton= function()<br /> { <br /> alert( Primary button Clicked );<br /> }                  |
 
 ## 4. REVISION HISTORY
 
