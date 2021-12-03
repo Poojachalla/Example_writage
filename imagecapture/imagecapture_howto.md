@@ -1,21 +1,21 @@
 # IMAGE CAPTURE (1.0.1)
 
-# 1. OVERVIEW
+## 1. OVERVIEW
 
 This component provides an easy way to capture and save images as base64 string
 into the application.
 
-## A. Use case:
+### A. Use case:
 
 This use case is especially of use in field service applications where an
 agent/technician needs to capture the defects, work done and other such
 information.
 
-## B. Percentage of re-use:
+### B. Percentage of re-use:
 
 Approximately 85% of reuse.
 
-## C. Features:
+### C. Features:
 
 -   Offline support for image capture
 
@@ -27,9 +27,9 @@ Approximately 85% of reuse.
 
 -   Compression ratio support for capturing images
 
-# 2. GETTING STARTED
+## 2. GETTING STARTED
 
-## A. Prerequisites
+### A. Prerequisites
 
 Before you start using the Image Capture component, ensure the following:
 
@@ -37,7 +37,7 @@ Before you start using the Image Capture component, ensure the following:
 
 • Volt MX Iris
 
-## B. Platforms Supported
+### B. Platforms Supported
 
 i. Mobile
 
@@ -49,7 +49,7 @@ ii. Tablet & iPad
 
 iii. PWA & Responsive Web
 
-## c. Importing the app
+### C. Importing the app
 
 You can import the Forge components only into the apps that are of the Reference
 Architecture type.
@@ -78,7 +78,7 @@ Once you have imported a component to your project, you can easily add the
 component to a form. For more information, refer [Add a Component to a
 Form](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Iris/iris_user_guide/Content/C_UsingComponents.html%22%20/l%20%22add-a-component-to-a-form)
 
-## D. Building and previewing the app
+### D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device. For more information, you can refer to the [Building and Viewing an
@@ -87,9 +87,9 @@ section of the Volt MX User Guide.
 
 You can then run your app to see the Image Capture work in real time.
 
-# 3. REFERENCES
+## 3. REFERENCES
 
-## A. Dynamic Usage
+### A. Dynamic Usage
 
 You can also add **Image Capture** component dynamically. To do so,
 
@@ -150,9 +150,9 @@ implement the code snippet like the sample code mentioned below.
 In the code snippet, you can edit the properties of the component as per your
 requirement. For more information, see Setting Properties.
 
-**2. Save the file**
+2. Save the file
 
-**A. Properties**
+### B. Properties
 
 The properties provided on the Component tab allows you to customize the
 elements in the Image Capture component. These elements can be UI elements,
@@ -160,7 +160,7 @@ service parameters, and so on. You can set the properties from the Volt MX Iris
 Properties panel on the right-hand side. You can also configure these properties
 using a JavaScript code.
 
-**General Properties**
+#### General Properties
 
 **Skins Section**
 
@@ -168,8 +168,9 @@ using a JavaScript code.
 
 **1. Camera flex Background Skin(sknFlxCompCamera)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the flex container of Camera. |
-|------------------|---------------------------------------------------------------------|
 | Syntax:          | sknFlxCompCamera                                                    |
 | **Type:**        | String                                                              |
 | **Read/Write:**  | Read + Write                                                        |
@@ -178,8 +179,9 @@ using a JavaScript code.
 
 **2. Camera text and color(sknLblCompCamera)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the label of Camera. |
-|------------------|------------------------------------------------------------|
 | Syntax:          | sknLblCompCamera                                           |
 | **Type:**        | String                                                     |
 | **Read/Write:**  | Read + Write                                               |
@@ -188,8 +190,9 @@ using a JavaScript code.
 
 **3. Gallery flex Background Skin(sknFlxCompGallery)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the flex container of Gallery. |
-|------------------|----------------------------------------------------------------------|
 | Syntax:          | sknFlxCompGallery                                                    |
 | **Type:**        | String                                                               |
 | **Read/Write:**  | Read + Write                                                         |
@@ -198,8 +201,9 @@ using a JavaScript code.
 
 **4. Gallery text and color(sknLblCompCamera)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the label of Gallery. |
-|------------------|-------------------------------------------------------------|
 | Syntax:          | sknFlxCompCamera                                            |
 | **Type:**        | String                                                      |
 | **Read/Write:**  | Read + Write                                                |
@@ -208,8 +212,9 @@ using a JavaScript code.
 
 **5. Separator flex Background Skin(sknLblCompImgSeparator)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the separator flex container. |
-|------------------|---------------------------------------------------------------------|
 | Syntax:          | sknLblCompImgSeparator                                              |
 | **Type:**        | String                                                              |
 | **Read/Write:**  | Read + Write                                                        |
@@ -218,8 +223,9 @@ using a JavaScript code.
 
 **6. Separator flex Background Skin(sknLblCompImgSeparator)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the separator flex container. |
-|------------------|---------------------------------------------------------------------|
 | Syntax:          | sknLblCompImgSeparator                                              |
 | **Type:**        | String                                                              |
 | **Read/Write:**  | Read + Write                                                        |
@@ -228,8 +234,9 @@ using a JavaScript code.
 
 **7. Background skin of flex dummy(sknFlxInspectionGreyOverlay)**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | Specifies the skin that is applied to the background color flex container. |
-|------------------|----------------------------------------------------------------------------|
 | Syntax:          | sknFlxInspectionGreyOverlay                                                |
 | **Type:**        | String                                                                     |
 | **Read/Write:**  | Read + Write                                                               |
@@ -237,21 +244,24 @@ using a JavaScript code.
 | **Remarks:**     | The default value for the property is “sknFlxInspectionGreyOverlay”.       |
 |                  |                                                                            |
 
-**C. API’s**
+### C. API’s
 
 **1.  toggleBackground**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:**  | This is the custom method to display the background colour of component |
-|-------------------|-------------------------------------------------------------------------|
 | Syntax:           | toggleBackground()                                                      |
 | **Parameters:**   | True or False                                                           |
 | **Return Value:** | None                                                                    |
 | **Example:**      | this.view.imagecapture.toggleBackground(true);                          |
 
-**D. Events**
+### D. Events
 
 **1.  onImageSelection**
 
+| <!-- -->    | <!-- -->    |
+|-------------|-------------|
 | **Description:** | The event is invoked when a user wants to select the image.                                       |
 |------------------|---------------------------------------------------------------------------------------------------|
 | Syntax:          | onImageSelection()                                                                                |
@@ -281,14 +291,14 @@ in **infoplist_configuration** file.
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# 4. REVISION HISTORY
+## 4. REVISION HISTORY
 
 App version 1.0.1:
 
-## A. Limitations
+### A. Limitations
 
 No Limitations.
 
-## B. Known issues
+### B. Known issues
 
 Web capture is not present in Chrome browser.
