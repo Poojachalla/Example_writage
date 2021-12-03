@@ -159,8 +159,8 @@ You can also add a **Hamburger Menu**  component dynamically. To do so,
 
 	});
 
-In the code snippet, you can edit the properties of the component as per
-your requirement. For more information, see Setting Properties.
+  In the code snippet, you can edit the properties of the component as per
+  your requirement. For more information, see Setting Properties.
 
 2. **Save** the file.
 
@@ -231,8 +231,8 @@ You can configure the events by writing a JavaScript
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | Description:	   | Invoked when the user taps or clicks a menu item.                                                                                                 |
-| Syntax  :        | onMenuItemClick                                                                                                                                   |
-|  Parameters  :   | menuItemObject  Contains the following keys. menuItemIndex : The index of the menu item. menuItemText : The text from the label of the menu item. |
+| Syntax  :        | onMenuItemClick<br /> menuItemObject                                                                                                               |
+|  Parameters  :   | Contains the following keys: <br />• menuItemIndex : The index of the menu item.<br />• menuItemText : The text from the label of the menu item. |
 | Example : 	   |this.view.hamMenu.onMenuItemClick= this.onRowClick;<br/>onRowClick:function(){<br/>this.view.hamMenu.setMenuVisibility(false);<br/>}     |			
 
 ### D.  APIs
@@ -256,11 +256,6 @@ The following APIs pertain to the Hamburger Menu component:
 | Syntax :     |   setData(formReference)                                                                                               |
 | Parameters :     | data                                                                                                                                  |
 | Example :    |this.view.hamMenu.setData(sampleData); |
-
-**MarketPlace URl :** <https://marketplace.kony.com/items/hamburger-menu>
-
-**FigmaLink :**
-<https://www.figma.com/file/JhKHQDUGrVQzKCA3XKON4j/UI-Components?node-id=312%3A6778>
 
 ## 4.  REVISION HISTORY
 
