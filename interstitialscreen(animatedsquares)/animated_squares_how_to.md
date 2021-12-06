@@ -33,7 +33,7 @@ iii.  Easy to customize
 
 ### A. Prerequisites
 
-Before you start using the TimeLine component, ensure you have the following:
+Before you start using the Interstitial Screen component, ensure you have the following:
 
 -   HCL Foundry
 
@@ -215,10 +215,10 @@ provides information on how to set properties by writing a JavaScript.
 | **Syntax:**      | animateElementColor                                                                                                                                                                |
 | **Type:**        | String (Hex Color code)                                                                                                                                                            |
 | **Read/Write:**  | Read + Write                                                                                                                                                                       |
-| **Remarks:**     | In a Hex color code that contain 8 characters, the last two characters define the opacity. The component displays the default color (FFFFFF) if you provide an invalid color code. |
+| **Remarks:**     | • In a Hex color code that contain 8 characters, the last two characters define the opacity.<br />• The component displays the default color (FFFFFF) if you provide an invalid color code. |
 | **Example:**     | this.view.componentID.animateElementColor= "FFFFFF                                                                                                                                 |
 
-### Text
+- **Text**
 
 #### 3.Title
 
@@ -244,7 +244,7 @@ provides information on how to set properties by writing a JavaScript.
 
 
 
-### Skin
+-	**Skin**
 
 You can select skins from the **Exposed Skins** drop-down list on the **Skin**
 tab. This section provides information on how to set Skin by writing a
