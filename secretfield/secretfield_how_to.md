@@ -200,7 +200,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | skinShowPin                                                                                                                                                                      |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.skinShowPin = "SecretFieldButtonSkin";                                                                                                                   |
 
 ### 
@@ -212,7 +212,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | skinShowKey                                                                                                                                                                      |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  <br/>  The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.skinShowPin = "SecretFieldButtonSkin";                                                                                                                   |
 
 ### 
@@ -224,7 +224,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       |  iconSkin                                                                                                                                                                        |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.iconSkin = "SecretFieldIconLabelSkin";                                                                                                                   |
 
 ### 
@@ -236,7 +236,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       |  textSkin                                                                                                                                                                        |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|    **Remarks:**   |  -	Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  - The skin ID assigned to the property must be the skin of the Label.  |
+|    **Remarks:**   |  -  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  -   The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.textSkin = "SecretFieldTextBoxSkin";                                                                                                                     |
 
 ### **Button Skin**
@@ -246,7 +246,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | buttonSkin                                                                                                                                                                       |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.buttonSkin = "SecretFieldButtonSkin";                                                                                                                   |
 
 ### 
@@ -258,7 +258,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | flexSkin                                                                                                                                                                         |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.flexSkin = "SecretFieldTopFlexSkin";                                                                                                                    |
 
 ### **Button Focus Skin**
@@ -268,7 +268,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | buttonFocusSkin                                                                                                                                                                  |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.buttonFocusSkin = "SecretFieldButtonFocusSkin";                                                                                                         |
 
 ### **Decorating icon**
@@ -278,7 +278,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | icon                                                                                                                                                                             |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.icon = "\\uF023";                                                                                                                                       |
 
 ### **Show icon**
@@ -288,7 +288,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | buttonicon                                                                                                                                                                       |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.buttonIcon ="\\uF06E";                                                                                                                                   |
 
 ### **Hide icon**
@@ -298,7 +298,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | hideicon                                                                                                                                                                         |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.hideIcon ="\\uF070";                                                                                                                                     |
 
 ### **Placeholder**
@@ -308,7 +308,7 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       | placeholder                                                                                                                                                                      |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|   **Remarks:**    |  Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.placeholder = "Password";                                                                                                                                |
 
 **Content Alignment** (textAlign)Specifies the alignment of the text
