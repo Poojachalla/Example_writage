@@ -58,7 +58,7 @@ Architecture type.
 ![Graphical user interface, text, application Description automatically
 generated](media/9700d3433b3a832a8b56c65cd364af8a.png)
 
- 3.Right-click **Components**, and then select **Import Component**. The **Import Component** dialog box appears.
+  3.Right-click **Components**, and then select **Import Component**. The **Import Component** dialog box appears.
 
 ![Graphical user interface, text, application, Teams Description automatically
 generated](media/1d4ae279a8ad9959ac3e2684c0674abf.png)
