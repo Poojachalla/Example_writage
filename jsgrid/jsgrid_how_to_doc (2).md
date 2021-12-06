@@ -472,7 +472,7 @@ side. You can also configure these properties using a JavaScript code.
 
 ## D. API’s
 
-i. setData
+**i. setData**
 
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
