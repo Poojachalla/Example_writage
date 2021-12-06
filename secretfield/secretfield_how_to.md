@@ -236,7 +236,8 @@ on the **Component** tab or by writing a JavaScript.
 | **Syntax:**       |  textSkin                                                                                                                                                                        |
 | **Type:**         | String                                                                                                                                                                           |
 | **Read/Write:**   | Read + Write                                                                                                                                                                     |
-|    **Remarks:**   |  Before you set the property, ensure that the skin ID that you specify already exists in your app project.  The skin ID assigned to the property must be the skin of the Label.  |
+|    **Remarks:**   |  - Before you set the property, ensure that the skin ID that you specify already exists in your app project. 
+                       - The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.textSkin = "SecretFieldTextBoxSkin";                                                                                                                     |
 
 ### **Button Skin**
