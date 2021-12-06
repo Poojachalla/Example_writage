@@ -481,15 +481,12 @@ side. You can also configure these properties using a JavaScript code.
 |**Parameters :**      |  header [Array of Strings] :A set of words that you want to  <br /> display as the headers of the grid. <br /> data [Array of JSON] :A set of JSON objects that contain the column name and the <br /> data that you want to enter into the grid.
 |**Return Value :**    | None
 
-**Example :**    var header =
-
+**Example :**    
+var header =
 [{
-
-name: "Name",
-
-type: "text",
-
-validate: "required",
+    name: "Name",
+    type: "text",
+    validate: "required",
 
 width: 100
 
