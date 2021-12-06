@@ -481,92 +481,96 @@ side. You can also configure these properties using a JavaScript code.
 |**Parameters :**      |  header [Array of Strings] :A set of words that you want to  <br /> display as the headers of the grid. <br /> data [Array of JSON] :A set of JSON objects that contain the column name and the <br /> data that you want to enter into the grid.
 |**Return Value :**    | None
 
-**Example :**    
-var header =
-[{
-    name: "Name",
-    type: "text",
-    validate: "required",
+**Example :**	
 
-width: 100
+		var header =
 
-}, {
+		 [{
+   		     name: "Name",
+    
+    		     type: "text",
+		
+               	     validate: "required",
 
-name: "Salary",
+		     width: 100
 
-type: "number",
+		    }, {
 
-validate: "required",
+		    name: "Salary",
 
-width: 50
+		    type: "number",
 
-}, {
+		    validate: "required",
 
-name: "Age",
+		    width: 50
 
-type: "number",
+		    }, {
 
-validate: "required",
+		    name: "Age",
 
-width: 30
+		    type: "number",
 
-}, {
+		    validate: "required",
 
-type: "control",
+		    width: 30
 
-editButton: true,
+		    }, {
 
-deleteButton: true,
+		    type: "control",
 
-clearFilterButton: true,
+		    editButton: true,
 
-inserting: true,
+		    deleteButton: true,
 
-filtering: true,
+		    clearFilterButton: true,
 
-editing: true,
+		    inserting: true,
+ 
+		    filtering: true,
 
-sorting: true,
+		    editing: true,
 
-}, ];
+		    sorting: true,
 
-var data =
+		    }, ];
 
-[
+		    var data =
 
-{
+		    [
 
-"Name": "John",
+		    {
 
-"Salary": "54000",
+		     "Name": "John",
 
-"Age": "34"
+		     "Salary": "54000",
 
-},
+		     "Age": "34"
 
-{
+		     },
 
-"Name": "Kevin",
+		    {
 
-"Salary": "65909",
+    		    "Name": "Kevin",
 
-"Age": "34"
+		    "Salary": "65909",
 
-},
+		     "Age": "34"
 
-{
+		     },
 
-"Name": "Steven",
+		     {
 
-"Salary": "65909",
+		     "Name": "Steven",
 
-"Age": "34"
+		     "Salary": "65909",
 
-}
+		     "Age": "34"
 
-];
+		      }
 
-this.view.jsGrid.setData(header, data);
+		      ];
+
+		      this.view.jsGrid.setData(header, data);
 
 # 4. Revision History
 
