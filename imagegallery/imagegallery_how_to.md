@@ -33,15 +33,15 @@ Before you start using the Image Gallery component, ensure the following:
 
 ### B. Platforms Supported
 
--       Mobile
+i.       Mobile
 
-    -   iOS
+    1.   iOS
 
-    -   Android
+    2.   Android
 
--       Tablet & iPad
+ii.       Tablet & iPad
 
--       PWA & Responsive Web
+iii.       PWA & Responsive Web
 
 ### C. Importing the app
 
@@ -122,7 +122,7 @@ using a JavaScript code.
 
 #### General Properties
 
-**1\. TextProperties**
+-   **TextProperties**
 
 **1\. Title Text (lblTileText):** This Property can be used when we use hidden
 widgets
@@ -136,7 +136,7 @@ widgets
 | **Example:**     | this. view. ImageGallery. lblTitleText = " PICK FROM DEVICE GALLERY "; |
 | Remarks:         | The default value for the property is “PICK FROM DEVICE GALLERY”.      |
 
-**2.Exposed Skins**
+-   **Exposed Skins**
 
 **1.flxpickfromGallerySkin:** This Property can be used when we use hidden widgets
 
@@ -210,7 +210,7 @@ this.view. ImageGallery.setImage(ImageListArr);
 
 ### D. Events
 
-**None of the Events are Exposed**
+None of the Events are Exposed
 
 ## 4. Revision History
 
