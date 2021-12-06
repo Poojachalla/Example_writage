@@ -2,7 +2,7 @@
 
 ## **Details**
 
-## Overview
+### Overview
 
 Augmented Reality is changing the way real world information is augmented with
 virtual 3D content that enables delivering rich and amazing experiences to the
@@ -66,7 +66,7 @@ components are successfully imported to the existing application.
 generated](media/9780e6e834fd6b3bdb19e0ccaf3cfe9f.png)
 
 
-**Build the App**
+### **Build the App**
 
 From menu bar, go to **Build** and then select **Build Native Local**.
 
@@ -83,7 +83,7 @@ confidence](media/e0215e58a1660814fe2cd9f86e2ac8c7.png)
 After the build is successful, run the app on your mobile device
 
 
-**Application Flow**
+### **Application Flow**
 
 The landing page for the app is as follows
 
