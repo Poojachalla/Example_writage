@@ -87,9 +87,13 @@ file, follow the given steps.
 
 1. In the **Project** explorer, navigate to **Web** → **Localfiles** → **jsgrid-weblocal** → **css**.
 
-2. From the **css** folder, select either **jsgrid.css** or **theme.css** to open the file. ![Text Description automatically generated](media/e00bc27d2de36c98a03c59828fd60c3e.png)
+2. From the **css** folder, select either **jsgrid.css** or **theme.css** to open the file.  
+                                                                                    
+![Text Description automatically generated](media/e00bc27d2de36c98a03c59828fd60c3e.png)
 
-3. Use the text editor to edit the css based on your preference. ![Text Description automatically generated](media/0e78f073cb17d433f8f44038b2c4d643.png)
+3. Use the text editor to edit the css based on your preference. 														 
+ 
+![Text Description automatically generated](media/0e78f073cb17d433f8f44038b2c4d643.png)
 
 # 3. References
 
