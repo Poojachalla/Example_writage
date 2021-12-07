@@ -38,7 +38,7 @@ services.
 
 -   Desktop web UI generated using sketch plugin
 
-**Features**
+## **Features**
 
 -   Easy Setup: Import the app and run, you should be ready to launch the app
     after updating your personal api keys for the weather and news backends.  
