@@ -229,7 +229,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-### • *TextBox Skin*
+#### • *TextBox Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
