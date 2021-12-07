@@ -490,23 +490,23 @@ side. You can also configure these properties using a JavaScript code.
 		var header =
 
 		 [{
-   		     name: "Name",
-    
-    		     type: "text",
+   		     name: "Name"
+		     
+		     type: "text",
 		
-               	     validate: "required",
+		     validate: "required",
 
 		     width: 100
 
 		    }, {
 
-		    name: "Salary",
+		     name: "Salary",
 
-		    type: "number",
+		     type: "number",
 
-		    validate: "required",
+		     validate: "required",
 
-		    width: 50
+		     width: 50
 
 		    }, {
 
