@@ -192,7 +192,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-#### **Normal Skin**
+#### • *Normal Skin*
 
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
@@ -205,7 +205,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-### **Normal Skin**
+#### • *Normal Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -217,7 +217,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-### **Icon Skin**
+#### • *Icon Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -229,7 +229,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-### **TextBox Skin**
+### • *TextBox Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -239,7 +239,7 @@ on the **Component** tab or by writing a JavaScript.
 |    **Remarks:**   |  • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.textSkin = "SecretFieldTextBoxSkin";                                                                                                                     |
 
-### **Button Skin**
+#### • *Button Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -251,7 +251,7 @@ on the **Component** tab or by writing a JavaScript.
 
 ### 
 
-### **Container Skin**
+#### • *Container Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -261,7 +261,7 @@ on the **Component** tab or by writing a JavaScript.
 |   **Remarks:**    | • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.flexSkin = "SecretFieldTopFlexSkin";                                                                                                                    |
 
-### **Button Focus Skin**
+#### • *Button Focus Skin*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -271,7 +271,7 @@ on the **Component** tab or by writing a JavaScript.
 |   **Remarks:**    | • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/>  • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.buttonFocusSkin = "SecretFieldButtonFocusSkin";                                                                                                         |
 
-### **Decorating icon**
+#### • *Decorating icon*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -281,7 +281,7 @@ on the **Component** tab or by writing a JavaScript.
 |   **Remarks:**    | • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      |  this.view.secretFieldId.icon = "\\uF023";                                                                                                                                       |
 
-### **Show icon**
+#### • *Show icon*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -291,7 +291,7 @@ on the **Component** tab or by writing a JavaScript.
 |   **Remarks:**    | • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.buttonIcon ="\\uF06E";                                                                                                                                   |
 
-### **Hide icon**
+#### • *Hide icon*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
@@ -301,7 +301,7 @@ on the **Component** tab or by writing a JavaScript.
 |   **Remarks:**    | • Before you set the property, ensure that the skin ID that you specify already exists in your app project. <br/> • The skin ID assigned to the property must be the skin of the Label.  |
 | **Example:**      | this.view.secretFieldId.hideIcon ="\\uF070";                                                                                                                                     |
 
-### **Placeholder**
+#### • *Placeholder*
 | <!-- -->    | <!-- -->    |
 |-------------|-------------|
 | **Description:**  | Specifies the skin to be applied to the button.                                                                                                                                  |
