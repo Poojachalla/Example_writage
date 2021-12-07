@@ -482,7 +482,7 @@ side. You can also configure these properties using a JavaScript code.
 |----------------------|-------------|
 |**Description :**     |  Adds the given data to the grid.
 |**Syntax :**          | setData(header,data)
-|**Parameters :**      |  header [Array of Strings] :A set of words that you want to  <br /> display as the headers of the grid. <br /> data [Array of JSON] :A set of JSON objects that contain the column name and the <br /> data that you want to enter into the grid.
+|**Parameters :**      |  header [Array of Strings] :A set of words that you want to  <br /> display as the headers of the grid. <br /> data [Array of JSON] :A set of JSON objects that contain the column name <br /> and the  data that you want to enter into the grid.
 |**Return Value :**    | None
 
 **Example :**	
@@ -544,17 +544,17 @@ side. You can also configure these properties using a JavaScript code.
 
 		    {
 
-		     "Name": "John",
+	  	     "Name": "John",
 
 		     "Salary": "54000",
 
 		     "Age": "34"
 
-		     },
+		    },
 
 		    {
 
-    		    "Name": "Kevin",
+       		    "Name": "Kevin",
 
 		    "Salary": "65909",
 
