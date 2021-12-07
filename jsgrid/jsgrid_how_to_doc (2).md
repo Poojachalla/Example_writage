@@ -544,31 +544,31 @@ side. You can also configure these properties using a JavaScript code.
 
 		    {
 
-	  	     "Name": "John",
+	  	      "Name": "John",
 
-		     "Salary": "54000",
+		      "Salary": "54000",
 
-		     "Age": "34"
+		      "Age": "34"
 
 		    },
 
-		    {
+		    { 
 
-       		    "Name": "Kevin",
+		      "Name": "Kevin",
 
-		    "Salary": "65909",
+		      "Salary": "65909",
 
-		     "Age": "34"
+		      "Age": "34"
 
 		     },
 
 		     {
 
-		     "Name": "Steven",
+		      "Name": "Steven",
 
-		     "Salary": "65909",
+		      "Salary": "65909",
 
-		     "Age": "34"
+		      "Age": "34"
 
 		      }
 
