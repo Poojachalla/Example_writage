@@ -1,37 +1,41 @@
-# **Recipients Mobile App**
+# **Recipients Mobile App(1.0.1)**
 
-## **Asset Version:** 1.0.1
 
-## **Overview:**
+## 1. **Overview:**
 
 The Recipients App is an easily preview of a basic Banking application. The app
 offers configurable lists for accounts and recipients, and detail views for each
 recipient, with configured identity and object services.
 
-**Prerequisite –** VoltMX Iris, VoltMX Foundry, VoltMX App Viewer.
-
-**Devices:** Mobile
-
-**Platforms:** Android, iOS
-
-**Live preview the asset using App Viewer:**
-
-**App Preview Code:** 4IGXJ
-
-**Scan with App Viewer:**
-
-![Qr code Description automatically
-generated](media/69ab36d9f2f29480f9168f6adac0eb9c.png)
-
-**Login Credentials for login into the app:** test1@test.com/Test@999
-
-**Features:**
+### A. Features:
 
 -   User Repository
 
 -   CRUD functionality
 
-**The app has the following entities:**
+
+## 2. **Getting Started**
+
+### A. Prerequisite
+
+ Before you start using the Secret Field component, ensure you have the following:
+
+-   HCL Foundry
+
+-   Volt MX Iris
+
+-   VoltMX App Viewer
+
+### B. Platforms Supported
+
+i. Mobile
+
+	1. iOS
+
+	2. Android
+
+
+## **The app has the following entities:**
 
 **Login:** Contains key front-end capabilities typically used in a mobile or web
 app's login page. This screen has a configured connectivity to a User
@@ -107,15 +111,15 @@ To preview the app by using Live Preview, follow these steps:
 
 1.  In Volt MX Iris Starter, click **Build** → **Live Preview Settings** from
     the main menu. The **Live Preview Settings** window opens.
-
-**Note**: In Volt MX Iris Enterprise, click **Preview** → **Run** from the
+    
+    **Note**: In Volt MX Iris Enterprise, click **Preview** → **Run** from the
     main menu to open the **Live Preview Settings** window.
 
 2.  Select any application channel such as Mobile Native along with the
     respective platform(s) on which you want to preview the app. Click **Save &
     Run**.
-
-After a successful preview build for Mobile channels, a window appears
+    
+ After a successful preview build for Mobile channels, a window appears
 containing a QR code. You can scan this QR code from the Volt MX Iris App Viewer
 application on your mobile device to preview the app.
 
@@ -123,21 +127,21 @@ For more information on Volt MX Iris App Viewer, you can refer the [Volt MX Iris
 App Viewer
 Documentation](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/).
 
-**Recipients Volt MX Foundry Services:**
+### **Recipients Volt MX Foundry Services:**
 
-1\. The Recipient Mobile app contains an **Identity Service**:
+1. The Recipient Mobile app contains an **Identity Service**:
 
-Uses **User Repository** identity for to login into the app.
+     Uses **User Repository** identity for to login into the app.
 
-2\. Recipients Mobile App Contains **Object Services:**
+2. Recipients Mobile App Contains **Object Services:**
 
--   **Account Storage**: By using data storage object service fetching
+   **•  Account Storage**: By using data storage object service fetching
     Recipients account Details Such as name of the account along with the
     Balance in each account.
 
-**Operations:**
+   **Operations:**
 
--   GET: Used to get the account details of Recipients
+    -   GET: Used to get the account details of Recipients
 
 Account Storage data model contains below fields.
 
@@ -149,15 +153,15 @@ generated](media/5c7cc92b06a087275e449dddc5f45e03.png)
     numbers. And we can perform crud operation add, edit & delete
     functionalities.
 
-**Operations:**
+     #### **Operations:**
+     
+     -   GET: Used to get the Recipients details.
 
--   GET: Used to get the Recipients details.
+     -   PUT(Update): Used to update the Recipients details.
 
--   PUT(Update): Used to update the Recipients details.
+      -   POST(Create): Used to create new Recipient
 
--   POST(Create): Used to create new Recipient
-
--   DELETE: Used to delete a Recipient.
+      -   DELETE: Used to delete a Recipient.
 
 Recipients Storage data model contains below fields.
 
@@ -175,10 +179,10 @@ App version: 1.0.1
 Max length validations for input fields in Add Recipient & Edit Recipient
 screens.
 
-A.  **Known Issue:**
+**A.  Known Issue:**
 
 NA
 
-B.  **Limitations:**
+**B.  Limitations:**
 
 Supports only for mobile devices not for tablet and iPad.
