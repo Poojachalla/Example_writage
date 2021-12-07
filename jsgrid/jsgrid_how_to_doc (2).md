@@ -444,7 +444,7 @@ side. You can also configure these properties using a JavaScript code.
 |**Description :**  |  Invoked when the user deletes an item from the grid.
 |**Syntax :**  |  onItemDeletion
 |**Parameters :**  | *args [Array of JSON]* : The item that the user deleted from <br /> the grid.
-|**Example :**  |  this.view.jsGrid.onItemDeletion = function(args) <br /> {   alert("Item Deleted: "+JSON.stringify(args)); <br /> }.bind(this); 
+|**Example :**  |  this.view.jsGrid.onItemDeletion = function(args) <br /> { <br />  alert("Item Deleted: "+JSON.stringify(args)); <br /> }.bind(this); 
    |
 
 **ii.onItemInsertion**
