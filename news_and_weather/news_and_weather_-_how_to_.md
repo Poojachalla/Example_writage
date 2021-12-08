@@ -224,9 +224,9 @@ To preview the app by using Live Preview, follow these steps:
 
 1.  In Volt MX Iris Starter, click **Build** → **Live Preview Settings** from
     the main menu. The **Live Preview Settings** window opens.
-
-**Note**: In Volt MX Iris Enterprise, click **Preview** → **Run** from the
-main menu to open the **Live Preview Settings** window.
+    
+    **Note**: In Volt MX Iris Enterprise, click **Preview** → **Run** from the
+    main menu to open the **Live Preview Settings** window.
 
 2.  Select any application channel such as Mobile Native, Tablet Native, or
     Responsive Web along with the respective platform(s) on which you want to
@@ -253,25 +253,25 @@ The News and Weather app contains an **Integration Service** :
 -   **NewsSampleService:** This service is used to retrieving live articles from
 all over the web.
 
-### Operations :
+    Operations :
 
-#### i.  CategorizedNews - Used to get different categories of news
+      i.  CategorizedNews - Used to get different categories of news
 
-ii.  TopStories - Used to get the top headlines of a news
+      ii.  TopStories - Used to get the top headlines of a news
 
 -   **WeatherSampleService**
 
-Operations :
+    Operations :
 
-i.  WeatherForecast – Used to get the weather temperature
+      i.  WeatherForecast – Used to get the weather temperature
 
--   LocationSampleService
+-   **LocationSampleService**
 
-Operations :
+    Operations :
 
-i.  LocationService – Used to get the current location
+      i.  LocationService – Used to get the current location
 
-And an **Orchestration Service** :
+    And an **Orchestration Service** :
 
 -   Top Stories and Weather – Used to get both top headlines and Weather
 
