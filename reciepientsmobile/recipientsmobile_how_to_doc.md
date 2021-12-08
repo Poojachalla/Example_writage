@@ -7,7 +7,7 @@ The Recipients App is an easily preview of a basic Banking application. The app
 offers configurable lists for accounts and recipients, and detail views for each
 recipient, with configured identity and object services.
 
-### A. Features:
+###  Features:
 
 -   User Repository
 
@@ -18,7 +18,7 @@ recipient, with configured identity and object services.
 
 ### A. Prerequisite
 
- Before you start using the Secret Field component, ensure you have the following:
+ Before you start using the Recipients Mobile App , ensure you have the following:
 
 -   HCL Foundry
 
@@ -170,7 +170,7 @@ generated](media/611b35304582298c98d2f436200a7c81.png)
 
 # 
 
-# **Revision History:**
+## **Revision History:**
 
 App version: 1.0.1
 
