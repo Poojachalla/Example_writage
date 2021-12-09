@@ -1,6 +1,6 @@
-# **News and Weather**
+# **News and Weather(2.0.1)**
 
-## **Asset Version: 2.0.1**
+## **1. Overview :**
 
 The News and Weather omni channel app enables a user to browse through news
 headlines with different categories such as ‘Top Stories’, ‘World’, ‘Science’,
@@ -8,37 +8,22 @@ headlines with different categories such as ‘Top Stories’, ‘World’, ‘S
 "NewsAPI.org". Apart from that, the app lets the user glance through local
 weather conditions. Also, it comes with an in-built learning module, Knowledge
 Framework, with overview and tutorials for Integration and Orchestration
-services.
+services. <br/>
+The **News and Weather** app allows users to browse through news headlines for
+different categories such as Top Stories, General, Business, Technology,
+Entertainment, and so on. Furthermore, the app lets users glance through the
+news and weather conditions. The app makes use of
+[Integration](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_foundry_user_guide/Content/Services.html)
+and
+[Orchestration](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_foundry_user_guide/Content/Orchestration.html)
+services of Volt MX Foundry to fetch data from third-party APIs, and then
+populates the data to the front end of the app.
 
-## **Requirements:**
+For information on how to import the News and Weather app to Volt MX Iris and
+run the app, visit the [Getting
+Started](https://marketplace.hclvoltmx.com/items/news-and-weather) page.
 
--   Volt MX Iris
-
--   [Volt MX Foundry](https://manage.hclvoltmx.com/)
-
-## **Devices:**
-
--   Mobile
-
--   Tablet
-
--   Desktop
-
-## **Platforms:**
-
--   Android
-
--   IOS
-
-## **Latest Updates:**
-
--   Available in Mobile, Desktop, and tablet channels
-
--   Responsive web output for desktop app
-
--   Desktop web UI generated using sketch plugin
-
-## **Features**
+### **A. Features**
 
 -   Easy Setup: Import the app and run, you should be ready to launch the app
     after updating your personal api keys for the weather and news backends.  
@@ -55,27 +40,43 @@ services.
 -   Learn about Integration and Orchestration Service capabilities of Volt MX
     Foundry
 
-## **Overview :**
 
-The **News and Weather** app allows users to browse through news headlines for
-different categories such as Top Stories, General, Business, Technology,
-Entertainment, and so on. Furthermore, the app lets users glance through the
-news and weather conditions. The app makes use of
-[Integration](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_foundry_user_guide/Content/Services.html)
-and
-[Orchestration](https://opensource.hcltechsw.com/volt-mx-docs/docs/documentation/Foundry/voltmx_foundry_user_guide/Content/Orchestration.html)
-services of Volt MX Foundry to fetch data from third-party APIs, and then
-populates the data to the front end of the app.
-
-For information on how to import the News and Weather app to Volt MX Iris and
-run the app, visit the [Getting
-Started](https://marketplace.hclvoltmx.com/items/news-and-weather) page.
-
-## **App Functionality :**
+### **B. App Functionality :**
 
 The News and Weather app is an omni-channel application. This section explains
 the functionality of the News and Weather app in Mobile, Tablet, and Desktop Web
 platforms.
+
+# 2.  **Getting Started**
+
+## A. Prerequisite
+
+ Before you start using the News and Weather App, ensure you have the following:
+
+-   Volt MX Iris
+
+-   [Volt MX Foundry](https://manage.hclvoltmx.com/)
+
+## B. Platforms Supported
+
+i. Mobile
+
+	1. iOS
+
+	2. Android
+
+ii. Tablets
+
+iii. PWA
+
+## **Latest Updates:**
+
+-   Available in Mobile, Desktop, and tablet channels
+
+-   Responsive web output for desktop app
+
+-   Desktop web UI generated using sketch plugin
+
 
 ## **Mobile Application :**
 
@@ -145,17 +146,7 @@ the device is in Portrait mode, click on the menu icon.
 
 ## ![Graphical user interface, application Description automatically generated](media/2555ffc503194e5a47aee784dbf826b5.png)
 
-## 
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
 
 ## **Desktop Web Application :**
 
