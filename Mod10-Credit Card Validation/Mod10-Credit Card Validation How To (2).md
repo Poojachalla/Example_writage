@@ -62,14 +62,14 @@ work in real time.
 
 **Process :**
 
-    i.  The module has a single function, **validateCCNumByMod** that takes in a
-    single parameter **crCardNum.**
+    i.  The module has a single function, validateCCNumByMod that takes in a
+    single parameter crCardNum.
 
     ii.  If the credit card is valid, the function returns true. Otherwise, the
     function returns false.
 
     iii.  You should add this .js file into the form modules and call the function
-    **validateCCNumByMod** from the form controller, then build the app.
+    validateCCNumByMod from the form controller, then build the app.
 
 **Module.js**
 
