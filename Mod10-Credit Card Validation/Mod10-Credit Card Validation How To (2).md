@@ -9,18 +9,18 @@ where user card details can be validated before processing further to server
 side or functionality. This simple code module can be used to validate credit
 card numbers before submitting them to a back end service.
 
-A.Use case
+### A. Use case
 
-### Used in Shopping Apps for Credit card Validation(Payments)
+ Used in Shopping Apps for Credit card Validation(Payments)
 
-## Percentage of re-use:
+### B.  Percentage of re-use:
 
 Approximate % of reuse. It sets an expectation of how much can be used out of
 the box, and how much needs to be customized for a specific app.
 
-# Getting Started
+## 2. Getting Started
 
-## Prerequisites
+### A. Prerequisites
 
 Before you start using the Mod 10 Credit Card Validation Function component,
 ensure you have the following:
@@ -29,23 +29,23 @@ ensure you have the following:
 
 -   Volt MX Iris
 
-## Platforms Supported
+### B.  Platforms Supported
 
-### Mobile
+i. Mobile
 
-#### iOS
+    -  iOS
 
-#### Android
+    - Android
 
-### Tablets
+ii. Tablets
 
-### PWA
+iii. PWA
 
-## Importing the component
+### C. Importing the component
 
-## --Import Js file and use the API in the controller.
+ --Import Js file and use the API in the controller.
 
-## Building and previewing the app
+### D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device. For more information, you can refer to the [Building and Viewing an
@@ -58,23 +58,53 @@ work in real time.
 
 ## 
 
-# References
+## 3. References
 
 **Process :**
 
-1.  The module has a single function, **validateCCNumByMod** that takes in a
+    i.  The module has a single function, **validateCCNumByMod** that takes in a
     single parameter **crCardNum.**
 
-2.  If the credit card is valid, the function returns true. Otherwise, the
+    ii.  If the credit card is valid, the function returns true. Otherwise, the
     function returns false.
 
-3.  You should add this .js file into the form modules and call the function
+    iii.  You should add this .js file into the form modules and call the function
     v**alidateCCNumByMod** from the form controller, then build the app.
 
 **Module.js**
 
-| function validateCCNumByMod(crCardNum) {  var sum = 0;  var crCardValid = false;  var everySecondDigit = false;  var crCardLen = crCardNum.length;  var checkDigit = crCardNum.substring(crCardLen - 1, crCardLen);  voltmx.print("Card check digit number is " + checkDigit);  for (var i = crCardLen - 1; i \>= 0; i--) {  var everyDigit = crCardNum.substring(i, i + 1);  if (everySecondDigit) {  everyDigit \*= 2;  if (everyDigit \> 9) {  everyDigit = (everyDigit % 10) + 1;  }  }  sum = sum + Number(everyDigit);  everySecondDigit = !everySecondDigit;  }   voltmx.print("Card check digit number is " + checkDigit);  if (sum % 10 === 0) {  crCardValid = true;  }  return crCardValid;  }  return { validate : validateCCNumByMod}; |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    function validateCCNumByMod(crCardNum)
+    { 
+    var sum = 0; 
+    var crCardValid = false;  
+    var everySecondDigit = false;
+    var crCardLen = crCardNum.length;
+    var checkDigit = crCardNum.substring(crCardLen - 1, crCardLen); 
+    voltmx.print("Card check digit number is " + checkDigit);
+    for (var i = crCardLen - 1; i \>= 0; i--)
+    {  
+    var everyDigit = crCardNum.substring(i, i + 1); 
+    if (everySecondDigit)
+    {  
+    everyDigit \*= 2; 
+    if (everyDigit \> 9)
+    { 
+    everyDigit = (everyDigit % 10) + 1; 
+    } 
+    } 
+    sum = sum + Number(everyDigit);  
+    everySecondDigit = !everySecondDigit; 
+    }  
+    voltmx.print("Card check digit number is " + checkDigit);  
+    if (sum % 10 === 0)
+    { 
+    crCardValid = true; 
+    } 
+    return crCardValid;
+    } 
+    return { validate : validateCCNumByMod};
+
+
 
 **Accessing module.js in form Controller:**
 
