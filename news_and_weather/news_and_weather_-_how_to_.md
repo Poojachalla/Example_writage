@@ -47,9 +47,9 @@ The News and Weather app is an omni-channel application. This section explains
 the functionality of the News and Weather app in Mobile, Tablet, and Desktop Web
 platforms.
 
-# 2.  **Getting Started**
+## 2.  **Getting Started**
 
-## A. Prerequisite
+### A. Prerequisite
 
  Before you start using the News and Weather App, ensure you have the following:
 
@@ -57,7 +57,7 @@ platforms.
 
 -   [Volt MX Foundry](https://manage.hclvoltmx.com/)
 
-## B. Platforms Supported
+### B. Platforms Supported
 
 i. Mobile
 
@@ -69,7 +69,7 @@ ii. Tablets
 
 iii. PWA
 
-## **Latest Updates:**
+### **Latest Updates:**
 
 -   Available in Mobile, Desktop, and tablet channels
 
@@ -268,7 +268,7 @@ all over the web.
 
 -   Weather and Location – Used to get both Weather and current location
 
-## **Limitations :**
+### **Limitations :**
 
 -   Landscape mode is not available for all devices.
 
