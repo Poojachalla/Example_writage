@@ -69,7 +69,7 @@ work in real time.
     function returns false.
 
     iii.  You should add this .js file into the form modules and call the function
-    v**alidateCCNumByMod** from the form controller, then build the app.
+    **validateCCNumByMod** from the form controller, then build the app.
 
 **Module.js**
 
