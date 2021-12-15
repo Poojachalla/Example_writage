@@ -1,11 +1,11 @@
 # ACTION SHEET (1.0.1)
 
-## 1.Overview
+## 1. Overview
 
 An Action Sheet is a popover which presents user with a set of actions out of
 which one may be chosen.
 
-### A.Use case
+### A. Use case
 
 Consider that you are developing a Restaurant Locator app which displays a list
 of restaurants that are located near the current location. In this app, you can
@@ -13,11 +13,11 @@ add the Action Sheet component. When a user selects the Get Directions option
 for a restaurant, an action sheet appears with a list of map services. The user
 can select a service and get the desired output.
 
-### B.Percentage of re-use:
+### B. Percentage of re-use:
 
 90%
 
-### C.Features
+### C. Features
 
 -   Initiate your app tasks
 
@@ -25,9 +25,9 @@ can select a service and get the desired output.
 
 -   Facility to customize the UI elements
 
-## 2.Getting Started
+## 2. Getting Started
 
-### A.Prerequisite
+### A. Prerequisite
 
 Before you start using the Action Sheet component, ensure the following:
 
@@ -35,7 +35,7 @@ Before you start using the Action Sheet component, ensure the following:
 
 • Volt MX Iris
 
-### B.Platforms Supported
+### B. Platforms Supported
 
 i.Mobile
 
@@ -77,7 +77,7 @@ and modules are added to your project.
 Once you have imported a component to your project, you can easily add the
 component to a form. For more information, refer Add a Component to a Form
 
-## D.Building and previewing the app
+## D. Building and previewing the app
 
 After performing all the above steps, you can build your app and run it on your
 device. For more information, you can refer to the [Building and Viewing an
@@ -86,9 +86,9 @@ section of the Volt MX User Guide.
 
 You can then run your app to see the Action Sheet work in real time.
 
-## 3.References
+## 3. References
 
-### A.Dynamic Usage
+### A. Dynamic Usage
 
 You can also add **Action Sheet** component dynamically. To do so,
 
@@ -500,7 +500,7 @@ requirement. For more information, see Setting Properties.
 
 App version 1.0.1:
 
-### A.Limitations
+### A. Limitations
 
 1\. Landscape mode is not supported.
 
